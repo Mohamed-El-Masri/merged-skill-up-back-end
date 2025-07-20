@@ -1,0 +1,1117 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SkillUpPlatform.API</name>
+    </assembly>
+    <members>
+        <member name="T:SkillUpPlatform.API.Controllers.AdminController">
+            <summary>
+            Admin system management endpoints
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminController.Login(SkillUpPlatform.Application.Features.Admin.Commands.AdminLoginCommand)">
+            <summary>
+            Admin login
+            </summary>
+            <param name="command">Admin login credentials</param>
+            <returns>Admin authentication result</returns>
+            <response code="200">Login successful</response>
+            <response code="401">Invalid credentials</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminController.GetDashboard">
+            <summary>
+            Get admin dashboard overview
+            </summary>
+            <returns>Admin dashboard data</returns>
+            <response code="200">Dashboard data retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminController.GetSystemStatistics">
+            <summary>
+            Get system statistics
+            </summary>
+            <returns>System statistics</returns>
+            <response code="200">Statistics retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminController.GetSystemHealth">
+            <summary>
+            Get system health status
+            </summary>
+            <returns>System health information</returns>
+            <response code="200">Health status retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminController.GetAuditLogs(System.Int32,System.Int32,System.Nullable{System.Int32},System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Get audit logs
+            </summary>
+            <param name="page">Page number</param>
+            <param name="pageSize">Page size</param>
+            <param name="userId">Filter by user ID</param>
+            <param name="action">Filter by action</param>
+            <param name="startDate">Filter by start date</param>
+            <param name="endDate">Filter by end date</param>
+            <returns>Audit logs</returns>
+            <response code="200">Audit logs retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminController.GetSystemConfig">
+            <summary>
+            Get system configuration
+            </summary>
+            <returns>System configuration</returns>
+            <response code="200">Configuration retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminController.UpdateSystemConfig(SkillUpPlatform.Application.Features.Admin.Commands.UpdateSystemConfigCommand)">
+            <summary>
+            Update system configuration
+            </summary>
+            <param name="command">Configuration data</param>
+            <returns>Update result</returns>
+            <response code="200">Configuration updated successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminController.GetPerformanceMetrics(System.String)">
+            <summary>
+            Get performance metrics
+            </summary>
+            <param name="period">Period for metrics</param>
+            <returns>Performance metrics</returns>
+            <response code="200">Metrics retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminController.GetErrorLogs(System.Int32,System.Int32,System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Get error logs
+            </summary>
+            <param name="page">Page number</param>
+            <param name="pageSize">Page size</param>
+            <param name="severity">Filter by severity</param>
+            <param name="startDate">Filter by start date</param>
+            <param name="endDate">Filter by end date</param>
+            <returns>Error logs</returns>
+            <response code="200">Error logs retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminController.CreateAdmin(SkillUpPlatform.Application.Features.Admin.Commands.CreateAdminUserCommand)">
+            <summary>
+            Create admin user
+            </summary>
+            <param name="command">Admin user data</param>
+            <returns>Create result</returns>
+            <response code="200">Admin user created successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminController.GetPlatformAnalytics(System.String)">
+            <summary>
+            Get platform analytics
+            </summary>
+            <param name="period">Period for analytics</param>
+            <returns>Platform analytics</returns>
+            <response code="200">Analytics retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="T:SkillUpPlatform.API.Controllers.AdminUsersController">
+            <summary>
+            Admin user management endpoints
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminUsersController.GetUsers(System.Int32,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            Get all users
+            </summary>
+            <param name="page">Page number</param>
+            <param name="pageSize">Page size</param>
+            <param name="search">Search term</param>
+            <param name="role">Filter by role</param>
+            <param name="status">Filter by status</param>
+            <returns>List of users</returns>
+            <response code="200">Users retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminUsersController.GetUser(System.Int32)">
+            <summary>
+            Get user details
+            </summary>
+            <param name="id">User ID</param>
+            <returns>User details</returns>
+            <response code="200">User details retrieved successfully</response>
+            <response code="404">User not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminUsersController.UpdateUser(System.Int32,SkillUpPlatform.Application.Features.Admin.Commands.UpdateUserCommand)">
+            <summary>
+            Update user
+            </summary>
+            <param name="id">User ID</param>
+            <param name="command">User update data</param>
+            <returns>Update result</returns>
+            <response code="200">User updated successfully</response>
+            <response code="404">User not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminUsersController.DeleteUser(System.Int32)">
+            <summary>
+            Delete user
+            </summary>
+            <param name="id">User ID</param>
+            <returns>Delete result</returns>
+            <response code="200">User deleted successfully</response>
+            <response code="404">User not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminUsersController.SuspendUser(System.Int32,SkillUpPlatform.Application.Features.Admin.Commands.SuspendUserCommand)">
+            <summary>
+            Suspend user
+            </summary>
+            <param name="id">User ID</param>
+            <param name="command">Suspension data</param>
+            <returns>Suspension result</returns>
+            <response code="200">User suspended successfully</response>
+            <response code="404">User not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminUsersController.ActivateUser(System.Int32)">
+            <summary>
+            Activate user
+            </summary>
+            <param name="id">User ID</param>
+            <returns>Activation result</returns>
+            <response code="200">User activated successfully</response>
+            <response code="404">User not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminUsersController.UpdateUserRole(System.Int32,SkillUpPlatform.Application.Features.Admin.Commands.UpdateUserRoleCommand)">
+            <summary>
+            Update user role
+            </summary>
+            <param name="id">User ID</param>
+            <param name="command">Role update data</param>
+            <returns>Role update result</returns>
+            <response code="200">User role updated successfully</response>
+            <response code="404">User not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminUsersController.GetUserAnalytics(System.Int32)">
+            <summary>
+            Get user analytics
+            </summary>
+            <param name="id">User ID</param>
+            <returns>User analytics</returns>
+            <response code="200">Analytics retrieved successfully</response>
+            <response code="404">User not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminUsersController.GetUserActivity(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Get user activity log
+            </summary>
+            <param name="id">User ID</param>
+            <param name="page">Page number</param>
+            <param name="pageSize">Page size</param>
+            <returns>User activity log</returns>
+            <response code="200">Activity log retrieved successfully</response>
+            <response code="404">User not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminUsersController.ResetUserPassword(System.Int32,SkillUpPlatform.Application.Features.Admin.Commands.AdminResetPasswordCommand)">
+            <summary>
+            Reset user password
+            </summary>
+            <param name="id">User ID</param>
+            <param name="command">Password reset data</param>
+            <returns>Password reset result</returns>
+            <response code="200">Password reset successfully</response>
+            <response code="404">User not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminUsersController.GetUsersAnalytics">
+            <summary>
+            Get users analytics summary
+            </summary>
+            <returns>Users analytics summary</returns>
+            <response code="200">Analytics retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminUsersController.SendMessageToUser(System.Int32,SkillUpPlatform.Application.Features.Admin.Commands.SendMessageToUserCommand)">
+            <summary>
+            Send message to user
+            </summary>
+            <param name="id">User ID</param>
+            <param name="command">Message data</param>
+            <returns>Send result</returns>
+            <response code="200">Message sent successfully</response>
+            <response code="404">User not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AdminUsersController.ExportUsers(System.String)">
+            <summary>
+            Export users data
+            </summary>
+            <param name="format">Export format (csv, excel)</param>
+            <returns>Exported users data</returns>
+            <response code="200">Data exported successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="T:SkillUpPlatform.API.Controllers.AssessmentsController">
+            <summary>
+            Assessment management endpoints
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AssessmentsController.GetAssessments(System.String,System.Nullable{System.Int32})">
+            <summary>
+            Get all assessments
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AssessmentsController.GetAssessmentById(System.Int32)">
+            <summary>
+            Get assessment by ID
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AssessmentsController.CreateAssessment(SkillUpPlatform.Application.Features.Assessments.Commands.CreateAssessmentCommand)">
+            <summary>
+            Create new assessment (Content Creator only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AssessmentsController.UpdateAssessment(System.Int32,SkillUpPlatform.Application.Features.Assessments.Commands.UpdateAssessmentCommand)">
+            <summary>
+            Update assessment (Content Creator only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AssessmentsController.DeleteAssessment(System.Int32)">
+            <summary>
+            Delete assessment (Content Creator only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AssessmentsController.SubmitAssessment(System.Int32,SkillUpPlatform.Application.Features.Assessments.Commands.SubmitAssessmentCommand)">
+            <summary>
+            Submit assessment (Student only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AssessmentsController.GetAssessmentResults(System.Int32)">
+            <summary>
+            Get assessment results
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AssessmentsController.StartAssessment(System.Int32)">
+            <summary>
+            Start assessment
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AssessmentsController.GetAssessmentQuestions(System.Int32)">
+            <summary>
+            Get assessment questions
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AssessmentsController.GetMyAssessments">
+            <summary>
+            Get user's assessment history
+            </summary>
+        </member>
+        <member name="T:SkillUpPlatform.API.Controllers.AuthController">
+            <summary>
+            Authentication endpoints for all user roles
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AuthController.Register(SkillUpPlatform.Application.Features.Auth.Commands.RegisterUserCommand)">
+            <summary>
+            Register a new user account
+            </summary>
+            <param name="command">User registration data</param>
+            <returns>Registration result with JWT token</returns>
+            <response code="200">User registered successfully</response>
+            <response code="400">Invalid registration data</response>
+            <response code="409">Email already exists</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AuthController.Login(SkillUpPlatform.Application.Features.Auth.Commands.LoginCommand)">
+            <summary>
+            Login with email and password
+            </summary>
+            <param name="command">Login credentials</param>
+            <returns>JWT token and user information</returns>
+            <response code="200">Login successful</response>
+            <response code="401">Invalid credentials</response>
+            <response code="403">Account not verified or suspended</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AuthController.Refresh(SkillUpPlatform.Application.Features.Auth.Commands.RefreshTokenCommand)">
+            <summary>
+            Refresh JWT token
+            </summary>
+            <param name="command">Refresh token data</param>
+            <returns>New JWT token</returns>
+            <response code="200">Token refreshed successfully</response>
+            <response code="401">Invalid refresh token</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AuthController.ForgotPassword(SkillUpPlatform.Application.Features.Auth.Commands.ForgotPasswordCommand)">
+            <summary>
+            Request password reset email
+            </summary>
+            <param name="command">Email address for password reset</param>
+            <returns>Password reset email sent</returns>
+            <response code="200">Password reset email sent (always returns 200 for security)</response>
+            <response code="400">Invalid email format</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AuthController.ResetPassword(SkillUpPlatform.Application.Features.Auth.Commands.ResetPasswordCommand)">
+            <summary>
+            Reset password using reset token
+            </summary>
+            <param name="command">Reset token and new password</param>
+            <returns>Password reset result</returns>
+            <response code="200">Password reset successfully</response>
+            <response code="400">Invalid or expired reset token</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AuthController.VerifyEmail(SkillUpPlatform.Application.Features.Auth.Commands.VerifyEmailCommand)">
+            <summary>
+            Verify email address
+            </summary>
+            <param name="command">Email verification token</param>
+            <returns>Email verification result</returns>
+            <response code="200">Email verified successfully</response>
+            <response code="400">Invalid or expired verification token</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AuthController.ResendVerification(SkillUpPlatform.Application.Features.Auth.Commands.ResendVerificationCommand)">
+            <summary>
+            Resend email verification
+            </summary>
+            <param name="command">Email address to resend verification</param>
+            <returns>Verification email sent</returns>
+            <response code="200">Verification email sent</response>
+            <response code="400">Invalid email or already verified</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AuthController.Logout">
+            <summary>
+            Logout user (invalidate token)
+            </summary>
+            <returns>Logout result</returns>
+            <response code="200">Logout successful</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AuthController.ChangePassword(SkillUpPlatform.Application.Features.Auth.Commands.ChangePasswordCommand)">
+            <summary>
+            Change user password
+            </summary>
+            <param name="command">Current and new password</param>
+            <returns>Password change result</returns>
+            <response code="200">Password changed successfully</response>
+            <response code="400">Invalid current password</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.AuthController.ValidateResetToken(SkillUpPlatform.Application.Features.Auth.Commands.ValidateResetTokenCommand)">
+            <summary>
+            Validate reset token
+            </summary>
+            <param name="command">Reset token to validate</param>
+            <returns>Token validation result</returns>
+            <response code="200">Token is valid</response>
+            <response code="400">Invalid or expired token</response>
+        </member>
+        <member name="T:SkillUpPlatform.API.Controllers.ContentController">
+            <summary>
+            Content management endpoints
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ContentController.GetContent(System.Nullable{System.Int32},System.String)">
+            <summary>
+            Get all content
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ContentController.GetContentById(System.Int32)">
+            <summary>
+            Get content by ID
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ContentController.CreateContent(SkillUpPlatform.Application.Features.Contentt.Commands.CreateContentCommand)">
+            <summary>
+            Create new content (Content Creator only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ContentController.UpdateContent(System.Int32,SkillUpPlatform.Application.Features.Contentt.Commands.UpdateContentCommand)">
+            <summary>
+            Update content (Content Creator only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ContentController.DeleteContent(System.Int32)">
+            <summary>
+            Delete content (Content Creator only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ContentController.CompleteContent(System.Int32)">
+            <summary>
+            Mark content as completed (Student only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ContentController.GetContentProgress(System.Int32)">
+            <summary>
+            Get content progress
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ContentController.GetNextContent(System.Int32,System.Int32)">
+            <summary>
+            Get next content in learning path
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ContentController.GetPreviousContent(System.Int32,System.Int32)">
+            <summary>
+            Get previous content in learning path
+            </summary>
+        </member>
+        <member name="T:SkillUpPlatform.API.Controllers.CreatorController">
+            <summary>
+            Content creator management endpoints
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.GetDashboard">
+            <summary>
+            Get creator dashboard overview
+            </summary>
+            <returns>Creator dashboard data</returns>
+            <response code="200">Dashboard data retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.GetMyLearningPaths(System.Int32,System.Int32,System.String)">
+            <summary>
+            Get creator's learning paths
+            </summary>
+            <param name="page">Page number</param>
+            <param name="pageSize">Page size</param>
+            <param name="status">Filter by status</param>
+            <returns>Creator's learning paths</returns>
+            <response code="200">Learning paths retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.CreateLearningPath(SkillUpPlatform.Application.Features.LearningPaths.Commands.CreateLearningPathCommand)">
+            <summary>
+            Create new learning path
+            </summary>
+            <param name="command">Learning path data</param>
+            <returns>Created learning path</returns>
+            <response code="200">Learning path created successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.UpdateLearningPath(System.Int32,SkillUpPlatform.Application.Features.LearningPaths.Commands.UpdateLearningPathCommand)">
+            <summary>
+            Update learning path
+            </summary>
+            <param name="id">Learning path ID</param>
+            <param name="command">Learning path update data</param>
+            <returns>Update result</returns>
+            <response code="200">Learning path updated successfully</response>
+            <response code="404">Learning path not found</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.DeleteLearningPath(System.Int32)">
+            <summary>
+            Delete learning path
+            </summary>
+            <param name="id">Learning path ID</param>
+            <returns>Delete result</returns>
+            <response code="200">Learning path deleted successfully</response>
+            <response code="404">Learning path not found</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.PublishLearningPath(System.Int32)">
+            <summary>
+            Publish learning path
+            </summary>
+            <param name="id">Learning path ID</param>
+            <returns>Publish result</returns>
+            <response code="200">Learning path published successfully</response>
+            <response code="404">Learning path not found</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.UnpublishLearningPath(System.Int32)">
+            <summary>
+            Unpublish learning path
+            </summary>
+            <param name="id">Learning path ID</param>
+            <returns>Unpublish result</returns>
+            <response code="200">Learning path unpublished successfully</response>
+            <response code="404">Learning path not found</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.GetLearningPathAnalytics(System.Int32)">
+            <summary>
+            Get learning path analytics
+            </summary>
+            <param name="id">Learning path ID</param>
+            <returns>Learning path analytics</returns>
+            <response code="200">Analytics retrieved successfully</response>
+            <response code="404">Learning path not found</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.GetEnrolledStudents(System.Int32,System.Int32,System.Nullable{System.Int32})">
+            <summary>
+            Get enrolled students
+            </summary>
+            <param name="page">Page number</param>
+            <param name="pageSize">Page size</param>
+            <param name="learningPathId">Filter by learning path ID</param>
+            <returns>Enrolled students</returns>
+            <response code="200">Students retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.GetStudentProgress(System.Int32,System.Int32)">
+            <summary>
+            Get student progress
+            </summary>
+            <param name="studentId">Student ID</param>
+            <param name="learningPathId">Learning path ID</param>
+            <returns>Student progress</returns>
+            <response code="200">Progress retrieved successfully</response>
+            <response code="404">Student or learning path not found</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.ProvideFeedback(System.Guid,SkillUpPlatform.Application.Features.ContentCreator.Commands.ProvideFeedbackCommand)">
+            <summary>
+            Provide feedback to student
+            </summary>
+            <param name="studentId">Student ID</param>
+            <param name="command">Feedback data</param>
+            <returns>Feedback result</returns>
+            <response code="200">Feedback provided successfully</response>
+            <response code="404">Student not found</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.GetEngagementAnalytics(System.String)">
+            <summary>
+            Get engagement analytics
+            </summary>
+            <param name="period">Period for analytics</param>
+            <returns>Engagement analytics</returns>
+            <response code="200">Analytics retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.GetCreatorAnalytics(System.String)">
+            <summary>
+            Get creator analytics
+            </summary>
+            <param name="period">Period for analytics</param>
+            <returns>Creator analytics</returns>
+            <response code="200">Analytics retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.GetRevenueAnalytics(System.String)">
+            <summary>
+            Get revenue analytics
+            </summary>
+            <param name="period">Period for analytics</param>
+            <returns>Revenue analytics</returns>
+            <response code="200">Analytics retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="T:SkillUpPlatform.API.Controllers.DashboardController">
+            <summary>
+            Student dashboard endpoints for learning overview and progress
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.DashboardController.GetOverview">
+            <summary>
+            Get student dashboard overview
+            </summary>
+            <returns>Dashboard overview with learning statistics</returns>
+            <response code="200">Dashboard overview retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.DashboardController.GetProgress">
+            <summary>
+            Get student learning progress
+            </summary>
+            <returns>Detailed learning progress information</returns>
+            <response code="200">Learning progress retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.DashboardController.GetAchievements">
+            <summary>
+            Get student achievements
+            </summary>
+            <returns>List of earned achievements and badges</returns>
+            <response code="200">Achievements retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.DashboardController.GetRecommendations">
+            <summary>
+            Get personalized recommendations
+            </summary>
+            <returns>AI-powered learning recommendations</returns>
+            <response code="200">Recommendations retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.DashboardController.GetCalendar(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Get learning calendar
+            </summary>
+            <param name="month">Month to get calendar for (optional)</param>
+            <param name="year">Year to get calendar for (optional)</param>
+            <returns>Learning calendar with scheduled activities</returns>
+            <response code="200">Calendar retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.DashboardController.GetRecentActivities(System.Int32)">
+            <summary>
+            Get recent activities
+            </summary>
+            <param name="limit">Number of activities to return (default: 10)</param>
+            <returns>Recent learning activities</returns>
+            <response code="200">Activities retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.DashboardController.GetStatistics(System.String)">
+            <summary>
+            Get learning statistics
+            </summary>
+            <param name="period">Period for statistics (week, month, year)</param>
+            <returns>Learning statistics for the specified period</returns>
+            <response code="200">Statistics retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.DashboardController.GetStudyStreak">
+            <summary>
+            Get study streak information
+            </summary>
+            <returns>Current study streak and history</returns>
+            <response code="200">Streak information retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="T:SkillUpPlatform.API.Controllers.FilesController">
+            <summary>
+            File management endpoints for all users
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.FilesController.Upload(Microsoft.AspNetCore.Http.IFormFile,System.String,System.String)">
+            <summary>
+            Upload a file
+            </summary>
+            <param name="file">File to upload</param>
+            <param name="description">File description (optional)</param>
+            <param name="category">File category (optional)</param>
+            <returns>Uploaded file information</returns>
+            <response code="200">File uploaded successfully</response>
+            <response code="400">Invalid file or file too large</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.FilesController.UploadMultiple(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile},System.String)">
+            <summary>
+            Upload multiple files
+            </summary>
+            <param name="files">Files to upload</param>
+            <param name="category">File category (optional)</param>
+            <returns>List of uploaded file information</returns>
+            <response code="200">Files uploaded successfully</response>
+            <response code="400">Invalid files or files too large</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.FilesController.Download(System.Int32)">
+            <summary>
+            Download a file
+            </summary>
+            <param name="id">File ID</param>
+            <returns>File download stream</returns>
+            <response code="200">File downloaded successfully</response>
+            <response code="404">File not found</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.FilesController.GetMyFiles(System.String,System.Int32,System.Int32)">
+            <summary>
+            Get user's files
+            </summary>
+            <param name="category">Filter by category (optional)</param>
+            <param name="page">Page number (default: 1)</param>
+            <param name="pageSize">Page size (default: 10)</param>
+            <returns>List of user's files</returns>
+            <response code="200">Files retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.FilesController.GetFileDetails(System.Int32)">
+            <summary>
+            Get file details
+            </summary>
+            <param name="id">File ID</param>
+            <returns>File details</returns>
+            <response code="200">File details retrieved successfully</response>
+            <response code="404">File not found</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.FilesController.Delete(System.Int32)">
+            <summary>
+            Delete a file
+            </summary>
+            <param name="id">File ID</param>
+            <returns>Delete result</returns>
+            <response code="200">File deleted successfully</response>
+            <response code="404">File not found</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.FilesController.Update(System.Int32,SkillUpPlatform.Application.Features.Files.Commands.UpdateFileCommand)">
+            <summary>
+            Update file information
+            </summary>
+            <param name="id">File ID</param>
+            <param name="command">File update data</param>
+            <returns>Update result</returns>
+            <response code="200">File updated successfully</response>
+            <response code="404">File not found</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.FilesController.Share(System.Int32,SkillUpPlatform.Application.Features.Files.Commands.ShareFileCommand)">
+            <summary>
+            Share a file with other users
+            </summary>
+            <param name="id">File ID</param>
+            <param name="command">Share settings</param>
+            <returns>Share result</returns>
+            <response code="200">File shared successfully</response>
+            <response code="404">File not found</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.FilesController.GetCategories">
+            <summary>
+            Get file categories
+            </summary>
+            <returns>List of available file categories</returns>
+            <response code="200">Categories retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="T:SkillUpPlatform.API.Controllers.LearningPathsController">
+            <summary>
+            Learning paths management endpoints
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.LearningPathsController.GetLearningPaths(System.String,System.String)">
+            <summary>
+            Get all learning paths
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.LearningPathsController.GetLearningPathById(System.Int32)">
+            <summary>
+            Get learning path by ID
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.LearningPathsController.CreateLearningPath(SkillUpPlatform.Application.Features.LearningPaths.Commands.CreateLearningPathCommand)">
+            <summary>
+            Create new learning path (Content Creator only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.LearningPathsController.UpdateLearningPath(System.Int32,SkillUpPlatform.Application.Features.LearningPaths.Commands.UpdateLearningPathCommand)">
+            <summary>
+            Update learning path (Content Creator only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.LearningPathsController.DeleteLearningPath(System.Int32)">
+            <summary>
+            Delete learning path (Content Creator only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.LearningPathsController.EnrollInLearningPath(System.Int32)">
+            <summary>
+            Enroll in learning path (Student only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.LearningPathsController.GetMyLearningPaths">
+            <summary>
+            Get user's enrolled learning paths
+            </summary>
+        </member>
+        <member name="T:SkillUpPlatform.API.Controllers.NotificationsController">
+            <summary>
+            Notification management endpoints for all users
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.NotificationsController.GetNotifications(System.Boolean,System.Int32,System.Int32)">
+            <summary>
+            Get user notifications
+            </summary>
+            <param name="unreadOnly">Get only unread notifications (default: false)</param>
+            <param name="page">Page number (default: 1)</param>
+            <param name="pageSize">Page size (default: 20)</param>
+            <returns>List of user notifications</returns>
+            <response code="200">Notifications retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.NotificationsController.MarkAsRead(System.Guid)">
+            <summary>
+            Mark notification as read
+            </summary>
+            <param name="id">Notification ID</param>
+            <returns>Mark as read result</returns>
+            <response code="200">Notification marked as read</response>
+            <response code="404">Notification not found</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.NotificationsController.MarkAllAsRead">
+            <summary>
+            Mark all notifications as read
+            </summary>
+            <returns>Mark all as read result</returns>
+            <response code="200">All notifications marked as read</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.NotificationsController.Delete(System.Guid)">
+            <summary>
+            Delete notification
+            </summary>
+            <param name="id">Notification ID</param>
+            <returns>Delete result</returns>
+            <response code="200">Notification deleted successfully</response>
+            <response code="404">Notification not found</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.NotificationsController.GetSettings">
+            <summary>
+            Get notification settings
+            </summary>
+            <returns>User notification settings</returns>
+            <response code="200">Settings retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.NotificationsController.UpdateSettings(SkillUpPlatform.Application.Features.Notifications.Commands.UpdateNotificationSettingsCommand)">
+            <summary>
+            Update notification settings
+            </summary>
+            <param name="command">Notification settings</param>
+            <returns>Update result</returns>
+            <response code="200">Settings updated successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.NotificationsController.GetUnreadCount">
+            <summary>
+            Get unread notifications count
+            </summary>
+            <returns>Count of unread notifications</returns>
+            <response code="200">Count retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.NotificationsController.SendNotification(SkillUpPlatform.Application.Features.Notifications.Commands.SendNotificationCommand)">
+            <summary>
+            Send notification to user (Admin only)
+            </summary>
+            <param name="command">Notification data</param>
+            <returns>Send result</returns>
+            <response code="200">Notification sent successfully</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.NotificationsController.SendBulkNotifications(SkillUpPlatform.Application.Features.Notifications.Commands.SendBulkNotificationCommand)">
+            <summary>
+            Send bulk notifications (Admin only)
+            </summary>
+            <param name="command">Bulk notification data</param>
+            <returns>Send result</returns>
+            <response code="200">Notifications sent successfully</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.NotificationsController.GetTemplates">
+            <summary>
+            Get notification templates (Admin only)
+            </summary>
+            <returns>List of notification templates</returns>
+            <response code="200">Templates retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Access denied</response>
+        </member>
+        <member name="T:SkillUpPlatform.API.Controllers.ProgressController">
+            <summary>
+            Learning progress tracking endpoints for students
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ProgressController.StartContent(System.Int32)">
+            <summary>
+            Mark content as started
+            </summary>
+            <param name="contentId">Content ID</param>
+            <returns>Progress tracking result</returns>
+            <response code="200">Content marked as started</response>
+            <response code="404">Content not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ProgressController.UpdateContentProgress(System.Int32,SkillUpPlatform.Application.Features.Progress.Commands.UpdateContentProgressCommand)">
+            <summary>
+            Update content progress
+            </summary>
+            <param name="contentId">Content ID</param>
+            <param name="command">Progress data</param>
+            <returns>Progress update result</returns>
+            <response code="200">Progress updated successfully</response>
+            <response code="404">Content not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ProgressController.CompleteContent(System.Int32)">
+            <summary>
+            Mark content as completed
+            </summary>
+            <param name="contentId">Content ID</param>
+            <returns>Completion result</returns>
+            <response code="200">Content marked as completed</response>
+            <response code="404">Content not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ProgressController.GetOverallProgress">
+            <summary>
+            Get user's overall progress
+            </summary>
+            <returns>Overall learning progress</returns>
+            <response code="200">Progress retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ProgressController.GetLearningPathProgress(System.Int32)">
+            <summary>
+            Get learning path progress
+            </summary>
+            <param name="learningPathId">Learning path ID</param>
+            <returns>Learning path progress details</returns>
+            <response code="200">Progress retrieved successfully</response>
+            <response code="404">Learning path not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ProgressController.GetContentProgress(System.Int32)">
+            <summary>
+            Get content progress details
+            </summary>
+            <param name="contentId">Content ID</param>
+            <returns>Content progress details</returns>
+            <response code="200">Progress retrieved successfully</response>
+            <response code="404">Content not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ProgressController.GetProgressStatistics(System.String)">
+            <summary>
+            Get progress statistics
+            </summary>
+            <param name="period">Period for statistics (week, month, year)</param>
+            <returns>Progress statistics</returns>
+            <response code="200">Statistics retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ProgressController.GetLearningStreaks">
+            <summary>
+            Get learning streaks
+            </summary>
+            <returns>Learning streak information</returns>
+            <response code="200">Streaks retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ProgressController.SetLearningGoals(SkillUpPlatform.Application.Features.Progress.Commands.SetLearningGoalsCommand)">
+            <summary>
+            Set learning goals
+            </summary>
+            <param name="command">Learning goals data</param>
+            <returns>Goal setting result</returns>
+            <response code="200">Goals set successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ProgressController.GetLearningGoals">
+            <summary>
+            Get learning goals
+            </summary>
+            <returns>User's learning goals</returns>
+            <response code="200">Goals retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ProgressController.TrackTimeSpent(System.Int32,SkillUpPlatform.Application.Features.Progress.Commands.TrackTimeSpentCommand)">
+            <summary>
+            Track time spent on content
+            </summary>
+            <param name="contentId">Content ID</param>
+            <param name="command">Time tracking data</param>
+            <returns>Time tracking result</returns>
+            <response code="200">Time tracked successfully</response>
+            <response code="404">Content not found</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ProgressController.GetTimeSpentAnalytics(System.String)">
+            <summary>
+            Get time spent analytics
+            </summary>
+            <param name="period">Period for analytics (week, month, year)</param>
+            <returns>Time spent analytics</returns>
+            <response code="200">Analytics retrieved successfully</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="T:SkillUpPlatform.API.Controllers.ResourcesController">
+            <summary>
+            Resources management endpoints
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ResourcesController.GetResources(System.String,System.Nullable{System.Int32})">
+            <summary>
+            Get all resources
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ResourcesController.GetResourceById(System.Int32)">
+            <summary>
+            Get resource by ID
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ResourcesController.CreateResource(SkillUpPlatform.Application.Features.Resources.Commands.CreateResourceCommand)">
+            <summary>
+            Create new resource (Content Creator only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ResourcesController.UpdateResource(System.Int32,SkillUpPlatform.Application.Features.Resources.Commands.UpdateResourceCommand)">
+            <summary>
+            Update resource (Content Creator only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ResourcesController.DeleteResource(System.Int32)">
+            <summary>
+            Delete resource (Content Creator only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ResourcesController.DownloadResource(System.Int32)">
+            <summary>
+            Download resource file
+            </summary>
+        </member>
+        <member name="T:SkillUpPlatform.API.Controllers.UsersController">
+            <summary>
+            User profile management endpoints
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.UsersController.GetProfile">
+            <summary>
+            Get current user profile
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.UsersController.UpdateProfile(SkillUpPlatform.Application.Features.Users.Commands.UpdateUserProfileCommand)">
+            <summary>
+            Update user profile
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.UsersController.ChangePassword(SkillUpPlatform.Application.Features.Auth.Commands.ChangePasswordCommand)">
+            <summary>
+            Change user password
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.UsersController.UpdatePreferences(SkillUpPlatform.Application.Features.Auth.Commands.UpdateUserPreferencesCommand)">
+            <summary>
+            Update user preferences
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.UsersController.GetUserStatistics">
+            <summary>
+            Get user statistics
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.UsersController.GetUserAchievements">
+            <summary>
+            Get user achievements
+            </summary>
+        </member>
+    </members>
+</doc>

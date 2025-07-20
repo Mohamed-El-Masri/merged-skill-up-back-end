@@ -1,0 +1,5463 @@
+[
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminController",
+    "Method": "GetPlatformAnalytics",
+    "RelativePath": "api/Admin/analytics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "period",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Admin.Queries.PlatformAnalyticsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - System Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminController",
+    "Method": "GetAuditLogs",
+    "RelativePath": "api/Admin/audit-logs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "action",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.PagedResult\u00601[[SkillUpPlatform.Application.Features.Admin.Queries.AuditLogDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - System Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminController",
+    "Method": "GetSystemConfig",
+    "RelativePath": "api/Admin/config",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Admin.Queries.SystemConfigDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - System Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminController",
+    "Method": "UpdateSystemConfig",
+    "RelativePath": "api/Admin/config",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Admin.Commands.UpdateSystemConfigCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - System Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminController",
+    "Method": "CreateAdmin",
+    "RelativePath": "api/Admin/create-admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Admin.Commands.CreateAdminUserCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - System Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminController",
+    "Method": "GetDashboard",
+    "RelativePath": "api/Admin/dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Admin.Queries.AdminDashboardDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - System Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminController",
+    "Method": "GetErrorLogs",
+    "RelativePath": "api/Admin/errors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "severity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.PagedResult\u00601[[SkillUpPlatform.Application.Features.Admin.Queries.ErrorLogDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - System Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminController",
+    "Method": "GetSystemHealth",
+    "RelativePath": "api/Admin/health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Admin.Queries.SystemHealthDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - System Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminController",
+    "Method": "Login",
+    "RelativePath": "api/Admin/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Admin.Commands.AdminLoginCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Admin.Commands.AdminAuthResult, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - System Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminController",
+    "Method": "GetPerformanceMetrics",
+    "RelativePath": "api/Admin/performance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "period",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Admin.Queries.PerformanceMetricsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - System Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminController",
+    "Method": "GetSystemStatistics",
+    "RelativePath": "api/Admin/statistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Admin.Queries.SystemStatisticsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - System Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminUsersController",
+    "Method": "GetUsers",
+    "RelativePath": "api/admin/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "role",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.PagedResult\u00601[[SkillUpPlatform.Application.Common.Models.AdminUserDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - User Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminUsersController",
+    "Method": "GetUser",
+    "RelativePath": "api/admin/users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.AdminUserDetailsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - User Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminUsersController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/admin/users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Admin.Commands.UpdateUserCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - User Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminUsersController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/admin/users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - User Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminUsersController",
+    "Method": "ActivateUser",
+    "RelativePath": "api/admin/users/{id}/activate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - User Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminUsersController",
+    "Method": "GetUserActivity",
+    "RelativePath": "api/admin/users/{id}/activity",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.PagedResult\u00601[[SkillUpPlatform.Application.Common.Models.UserActivityDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - User Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminUsersController",
+    "Method": "GetUserAnalytics",
+    "RelativePath": "api/admin/users/{id}/analytics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.UserAnalyticsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - User Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminUsersController",
+    "Method": "SendMessageToUser",
+    "RelativePath": "api/admin/users/{id}/message",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Admin.Commands.SendMessageToUserCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - User Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminUsersController",
+    "Method": "ResetUserPassword",
+    "RelativePath": "api/admin/users/{id}/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Admin.Commands.AdminResetPasswordCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - User Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminUsersController",
+    "Method": "UpdateUserRole",
+    "RelativePath": "api/admin/users/{id}/role",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Admin.Commands.UpdateUserRoleCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - User Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminUsersController",
+    "Method": "SuspendUser",
+    "RelativePath": "api/admin/users/{id}/suspend",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Admin.Commands.SuspendUserCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - User Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminUsersController",
+    "Method": "GetUsersAnalytics",
+    "RelativePath": "api/admin/users/analytics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.UsersAnalyticsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - User Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AdminUsersController",
+    "Method": "ExportUsers",
+    "RelativePath": "api/admin/users/export",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "format",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.FileStreamResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83D\uDCBC Admin - User Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AuthController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Auth/change-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Auth.Commands.ChangePasswordCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AuthController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Auth/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Auth.Commands.ForgotPasswordCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Auth.Commands.LoginCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Auth.Commands.AuthResult, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/Auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AuthController",
+    "Method": "Refresh",
+    "RelativePath": "api/Auth/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Auth.Commands.RefreshTokenCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Auth.Commands.AuthResult, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Auth.Commands.RegisterUserCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Auth.Commands.AuthResult, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 409
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AuthController",
+    "Method": "ResendVerification",
+    "RelativePath": "api/Auth/resend-verification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Auth.Commands.ResendVerificationCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AuthController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Auth/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Auth.Commands.ResetPasswordCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AuthController",
+    "Method": "ValidateResetToken",
+    "RelativePath": "api/Auth/validate-reset-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Auth.Commands.ValidateResetTokenCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AuthController",
+    "Method": "VerifyEmail",
+    "RelativePath": "api/Auth/verify-email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Auth.Commands.VerifyEmailCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "GetCreatorAnalytics",
+    "RelativePath": "api/creator/analytics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "period",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.ContentCreator.Queries.CreatorAnalyticsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "GetDashboard",
+    "RelativePath": "api/creator/dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.ContentCreator.Queries.CreatorDashboardDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "GetEngagementAnalytics",
+    "RelativePath": "api/creator/engagement",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "period",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.ContentCreator.Queries.EngagementAnalyticsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "GetMyLearningPaths",
+    "RelativePath": "api/creator/learning-paths",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.PagedResult\u00601[[SkillUpPlatform.Application.Common.Models.CreatorLearningPathDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "CreateLearningPath",
+    "RelativePath": "api/creator/learning-paths",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.ContentCreator.Commands.CreatorCreateLearningPathCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.CreatorLearningPathDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "UpdateLearningPath",
+    "RelativePath": "api/creator/learning-paths/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.LearningPaths.Commands.UpdateLearningPathCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "DeleteLearningPath",
+    "RelativePath": "api/creator/learning-paths/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "GetLearningPathById",
+    "RelativePath": "api/creator/learning-paths/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.CreatorLearningPathDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "GetLearningPathAnalytics",
+    "RelativePath": "api/creator/learning-paths/{id}/analytics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.ContentCreator.Queries.LearningPathAnalyticsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "PublishLearningPath",
+    "RelativePath": "api/creator/learning-paths/{id}/publish",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "UnpublishLearningPath",
+    "RelativePath": "api/creator/learning-paths/{id}/unpublish",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "Login",
+    "RelativePath": "api/creator/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.ContentCreator.Commands.CreatorLoginCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "GetRevenueAnalytics",
+    "RelativePath": "api/creator/revenue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "period",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.RevenueAnalyticsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "GetEnrolledStudents",
+    "RelativePath": "api/creator/students",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "learningPathId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.PagedResult\u00601[[SkillUpPlatform.Application.Features.ContentCreator.Queries.CreatorStudentDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "ProvideFeedback",
+    "RelativePath": "api/creator/students/{studentId}/feedback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.ContentCreator.Commands.ProvideFeedbackCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
+    "Method": "GetStudentProgress",
+    "RelativePath": "api/creator/students/{studentId}/progress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "learningPathId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.ContentCreator.Queries.StudentProgressDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.DashboardController",
+    "Method": "GetAchievements",
+    "RelativePath": "api/Dashboard/achievements",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[System.Collections.Generic.List\u00601[[SkillUpPlatform.Application.Features.Dashboard.Queries.DashboardAchievementDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Dashboard"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.DashboardController",
+    "Method": "GetRecentActivities",
+    "RelativePath": "api/Dashboard/activities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[System.Collections.Generic.List\u00601[[SkillUpPlatform.Application.Features.Dashboard.Queries.ActivityDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Dashboard"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.DashboardController",
+    "Method": "GetCalendar",
+    "RelativePath": "api/Dashboard/calendar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "month",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Dashboard.Queries.LearningCalendarDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Dashboard"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.DashboardController",
+    "Method": "GetOverview",
+    "RelativePath": "api/Dashboard/overview",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Dashboard.Queries.DashboardOverviewDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Dashboard"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.DashboardController",
+    "Method": "GetProgress",
+    "RelativePath": "api/Dashboard/progress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Dashboard.Queries.DashboardLearningProgressDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Dashboard"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.DashboardController",
+    "Method": "GetRecommendations",
+    "RelativePath": "api/Dashboard/recommendations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[System.Collections.Generic.List\u00601[[SkillUpPlatform.Application.Features.Dashboard.Queries.RecommendationDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Dashboard"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.DashboardController",
+    "Method": "GetStatistics",
+    "RelativePath": "api/Dashboard/statistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "period",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Dashboard.Queries.LearningStatisticsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Dashboard"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.DashboardController",
+    "Method": "GetStudyStreak",
+    "RelativePath": "api/Dashboard/streak",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Dashboard.Queries.StudyStreakDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Dashboard"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.FilesController",
+    "Method": "Download",
+    "RelativePath": "api/Files/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.FileStreamResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - File Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.FilesController",
+    "Method": "Delete",
+    "RelativePath": "api/Files/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - File Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.FilesController",
+    "Method": "Update",
+    "RelativePath": "api/Files/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Files.Commands.UpdateFileCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - File Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.FilesController",
+    "Method": "GetFileDetails",
+    "RelativePath": "api/Files/{id}/details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.FileDetailsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - File Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.FilesController",
+    "Method": "Share",
+    "RelativePath": "api/Files/{id}/share",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Files.Commands.ShareFileCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Files.Commands.FileShareDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - File Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.FilesController",
+    "Method": "GetCategories",
+    "RelativePath": "api/Files/categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[System.Collections.Generic.List\u00601[[SkillUpPlatform.Application.Features.Files.Queries.FileCategoryDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - File Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.FilesController",
+    "Method": "GetMyFiles",
+    "RelativePath": "api/Files/my-files",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.PagedResult\u00601[[SkillUpPlatform.Application.Common.Models.FileInfoDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - File Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.FilesController",
+    "Method": "Upload",
+    "RelativePath": "api/Files/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Files.Commands.FileUploadDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - File Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.FilesController",
+    "Method": "UploadMultiple",
+    "RelativePath": "api/Files/upload-multiple",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[System.Collections.Generic.List\u00601[[SkillUpPlatform.Application.Features.Files.Commands.FileUploadDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - File Management"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.NotificationsController",
+    "Method": "GetNotifications",
+    "RelativePath": "api/Notifications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "unreadOnly",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.PagedResult\u00601[[SkillUpPlatform.Application.Features.Notifications.Commands.NotificationDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Notifications"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.NotificationsController",
+    "Method": "Delete",
+    "RelativePath": "api/Notifications/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Notifications"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.NotificationsController",
+    "Method": "MarkAsRead",
+    "RelativePath": "api/Notifications/{id}/read",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Notifications"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.NotificationsController",
+    "Method": "MarkAllAsRead",
+    "RelativePath": "api/Notifications/mark-all-read",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Notifications"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.NotificationsController",
+    "Method": "SendNotification",
+    "RelativePath": "api/Notifications/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Notifications.Commands.SendNotificationCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Notifications"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.NotificationsController",
+    "Method": "SendBulkNotifications",
+    "RelativePath": "api/Notifications/send-bulk",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Notifications.Commands.SendBulkNotificationCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Notifications"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.NotificationsController",
+    "Method": "GetSettings",
+    "RelativePath": "api/Notifications/settings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Notifications.Commands.NotificationSettingsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Notifications"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.NotificationsController",
+    "Method": "UpdateSettings",
+    "RelativePath": "api/Notifications/settings",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Notifications.Commands.UpdateNotificationSettingsCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Notifications"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.NotificationsController",
+    "Method": "GetTemplates",
+    "RelativePath": "api/Notifications/templates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[System.Collections.Generic.List\u00601[[SkillUpPlatform.Application.Features.Notifications.Queries.NotificationTemplateDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Notifications"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.NotificationsController",
+    "Method": "GetUnreadCount",
+    "RelativePath": "api/Notifications/unread-count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Notifications"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ProgressController",
+    "Method": "GetContentProgress",
+    "RelativePath": "api/Progress/content/{contentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.ContentProgressDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Progress Tracking"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ProgressController",
+    "Method": "CompleteContent",
+    "RelativePath": "api/Progress/content/{contentId}/complete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Progress Tracking"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ProgressController",
+    "Method": "UpdateContentProgress",
+    "RelativePath": "api/Progress/content/{contentId}/progress",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Progress.Commands.UpdateContentProgressCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Progress Tracking"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ProgressController",
+    "Method": "StartContent",
+    "RelativePath": "api/Progress/content/{contentId}/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Progress Tracking"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ProgressController",
+    "Method": "TrackTimeSpent",
+    "RelativePath": "api/Progress/content/{contentId}/time",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Progress.Commands.TrackTimeSpentCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Progress Tracking"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ProgressController",
+    "Method": "SetLearningGoals",
+    "RelativePath": "api/Progress/goals",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Progress.Commands.SetLearningGoalsCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Progress Tracking"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ProgressController",
+    "Method": "GetLearningGoals",
+    "RelativePath": "api/Progress/goals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.LearningGoalsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Progress Tracking"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ProgressController",
+    "Method": "GetLearningPathProgress",
+    "RelativePath": "api/Progress/learning-path/{learningPathId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "learningPathId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Common.Models.LearningPathProgressDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Progress Tracking"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ProgressController",
+    "Method": "GetOverallProgress",
+    "RelativePath": "api/Progress/overall",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Progress.Commands.OverallProgressDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Progress Tracking"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ProgressController",
+    "Method": "GetProgressStatistics",
+    "RelativePath": "api/Progress/statistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "period",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Progress.Commands.ProgressStatisticsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Progress Tracking"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ProgressController",
+    "Method": "GetLearningStreaks",
+    "RelativePath": "api/Progress/streaks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Progress.Queries.LearningStreakDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Progress Tracking"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ProgressController",
+    "Method": "GetTimeSpentAnalytics",
+    "RelativePath": "api/Progress/time-analytics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "period",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[SkillUpPlatform.Application.Features.Progress.Queries.TimeSpentAnalyticsDto, SkillUpPlatform.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Progress Tracking"
+    ]
+  },
+  {
+    "ContainingType": "AIAssistantController",
+    "Method": "AnalyzeSkills",
+    "RelativePath": "api/v1/AIAssistant/analyze-skills",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.AI.Commands.AnalyzeSkillsCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AIAssistantController",
+    "Method": "ChatWithAssistant",
+    "RelativePath": "api/v1/AIAssistant/chat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.AI.Commands.ChatWithAssistantCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AIAssistantController",
+    "Method": "GenerateCV",
+    "RelativePath": "api/v1/AIAssistant/generate-cv",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.AI.Commands.GenerateCVCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AIAssistantController",
+    "Method": "RecommendCareer",
+    "RelativePath": "api/v1/AIAssistant/recommend-career",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.AI.Commands.RecommendCareerCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AIAssistantController",
+    "Method": "GetUserProgress",
+    "RelativePath": "api/v1/AIAssistant/user/{userId}/progress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AssessmentsController",
+    "Method": "GetAssessments",
+    "RelativePath": "api/v1/Assessments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "learningPathId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AssessmentsController",
+    "Method": "CreateAssessment",
+    "RelativePath": "api/v1/Assessments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Assessments.Commands.CreateAssessmentCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AssessmentsController",
+    "Method": "GetAssessmentById",
+    "RelativePath": "api/v1/Assessments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AssessmentsController",
+    "Method": "UpdateAssessment",
+    "RelativePath": "api/v1/Assessments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Assessments.Commands.UpdateAssessmentCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AssessmentsController",
+    "Method": "DeleteAssessment",
+    "RelativePath": "api/v1/Assessments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AssessmentsController",
+    "Method": "GetAssessmentQuestions",
+    "RelativePath": "api/v1/Assessments/{id}/questions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AssessmentsController",
+    "Method": "GetAssessmentResults",
+    "RelativePath": "api/v1/Assessments/{id}/results",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AssessmentsController",
+    "Method": "StartAssessment",
+    "RelativePath": "api/v1/Assessments/{id}/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AssessmentsController",
+    "Method": "SubmitAssessment",
+    "RelativePath": "api/v1/Assessments/{id}/submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Assessments.Commands.SubmitAssessmentCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.AssessmentsController",
+    "Method": "GetMyAssessments",
+    "RelativePath": "api/v1/Assessments/my-assessments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ContentController",
+    "Method": "GetContent",
+    "RelativePath": "api/v1/Content",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "learningPathId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ContentController",
+    "Method": "CreateContent",
+    "RelativePath": "api/v1/Content",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Contentt.Commands.CreateContentCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ContentController",
+    "Method": "GetContentById",
+    "RelativePath": "api/v1/Content/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ContentController",
+    "Method": "UpdateContent",
+    "RelativePath": "api/v1/Content/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Contentt.Commands.UpdateContentCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ContentController",
+    "Method": "DeleteContent",
+    "RelativePath": "api/v1/Content/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ContentController",
+    "Method": "MarkContentAsCompleted",
+    "RelativePath": "api/v1/Content/{id}/mark-completed",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Contentt.Commands.MarkContentAsCompletedCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ContentController",
+    "Method": "GetNextContent",
+    "RelativePath": "api/v1/Content/{id}/next",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "learningPathId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ContentController",
+    "Method": "GetPreviousContent",
+    "RelativePath": "api/v1/Content/{id}/previous",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "learningPathId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ContentController",
+    "Method": "GetContentProgress",
+    "RelativePath": "api/v1/Content/{id}/progress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.LearningPathsController",
+    "Method": "GetLearningPaths",
+    "RelativePath": "api/v1/LearningPaths",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "difficultyLevel",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.LearningPathsController",
+    "Method": "CreateLearningPath",
+    "RelativePath": "api/v1/LearningPaths",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.LearningPaths.Commands.CreateLearningPathCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.LearningPathsController",
+    "Method": "GetLearningPathById",
+    "RelativePath": "api/v1/LearningPaths/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.LearningPathsController",
+    "Method": "UpdateLearningPath",
+    "RelativePath": "api/v1/LearningPaths/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.LearningPaths.Commands.UpdateLearningPathCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.LearningPathsController",
+    "Method": "DeleteLearningPath",
+    "RelativePath": "api/v1/LearningPaths/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.LearningPathsController",
+    "Method": "EnrollInLearningPath",
+    "RelativePath": "api/v1/LearningPaths/{id}/enroll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.LearningPathsController",
+    "Method": "GetMyLearningPaths",
+    "RelativePath": "api/v1/LearningPaths/my-learning-paths",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.LearningPathsController",
+    "Method": "RecommendLearningPaths",
+    "RelativePath": "api/v1/LearningPaths/recommend",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.LearningPaths.Commands.RecommendLearningPathCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ResourcesController",
+    "Method": "GetResources",
+    "RelativePath": "api/v1/Resources",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "learningPathId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ResourcesController",
+    "Method": "CreateResource",
+    "RelativePath": "api/v1/Resources",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Resources.Commands.CreateResourceCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ResourcesController",
+    "Method": "GetResourceById",
+    "RelativePath": "api/v1/Resources/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ResourcesController",
+    "Method": "UpdateResource",
+    "RelativePath": "api/v1/Resources/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Resources.Commands.UpdateResourceCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ResourcesController",
+    "Method": "DeleteResource",
+    "RelativePath": "api/v1/Resources/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ResourcesController",
+    "Method": "DownloadResource",
+    "RelativePath": "api/v1/Resources/{id}/download",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ResourcesController",
+    "Method": "GetCoverLetterTemplates",
+    "RelativePath": "api/v1/Resources/cover-letter-templates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ResourcesController",
+    "Method": "GetCVTemplates",
+    "RelativePath": "api/v1/Resources/cv-templates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ResourcesController",
+    "Method": "GetInterviewQuestions",
+    "RelativePath": "api/v1/Resources/interview-questions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.ResourcesController",
+    "Method": "GetInterviewQuestionsByCategory",
+    "RelativePath": "api/v1/Resources/interview-questions/{category}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.UsersController",
+    "Method": "GetUserAchievements",
+    "RelativePath": "api/v1/Users/achievements",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.UsersController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/v1/Users/change-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Auth.Commands.ChangePasswordCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.UsersController",
+    "Method": "UpdatePreferences",
+    "RelativePath": "api/v1/Users/preferences",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Auth.Commands.UpdateUserPreferencesCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.UsersController",
+    "Method": "GetProfile",
+    "RelativePath": "api/v1/Users/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.UsersController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/v1/Users/profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SkillUpPlatform.Application.Features.Users.Commands.UpdateUserProfileCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  },
+  {
+    "ContainingType": "SkillUpPlatform.API.Controllers.UsersController",
+    "Method": "GetUserStatistics",
+    "RelativePath": "api/v1/Users/statistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "\uD83D\uDC68\u200D\uD83C\uDF93 Student - Authentication \u0026 Profile"
+    ]
+  }
+]

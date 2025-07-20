@@ -1,0 +1,994 @@
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\appsettings.json
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.staticwebassets.endpoints.json
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.exe
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.deps.json
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.runtimeconfig.json
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.pdb
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\AutoMapper.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Azure.Core.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Azure.Identity.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Humanizer.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\MediatR.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\MediatR.Contracts.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\StackExchange.Redis.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\System.CodeDom.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Convention.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Drawing.Common.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Memory.Data.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Security.Permissions.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Application.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Application.pdb
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.pdb
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.csproj.AssemblyReference.cache
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.GeneratedMSBuildEditorConfig.editorconfig
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.AssemblyInfoInputs.cache
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.AssemblyInfo.cs
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.csproj.CoreCompileInputs.cache
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.MvcApplicationPartsAssemblyInfo.cs
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.MvcApplicationPartsAssemblyInfo.cache
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\scopedcss\bundle\SkillUpPlatform.API.styles.css
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.json
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.development.json
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpP.FC29E0D0.Up2Date
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\refint\SkillUpPlatform.API.dll
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.pdb
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.genruntimeconfig.cache
+e:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\ref\SkillUpPlatform.API.dll
+E:\PWD - 9Months\Intake 45 labs\ITI 9 Months Labs\00- project\07-Graduation Project\SkillUpPlatform\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\appsettings.json
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.staticwebassets.endpoints.json
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.exe
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.deps.json
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.runtimeconfig.json
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.pdb
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\AutoMapper.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Azure.Core.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Azure.Identity.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Humanizer.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\MediatR.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\StackExchange.Redis.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.CodeDom.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Memory.Data.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Application.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Application.pdb
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.pdb
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.csproj.AssemblyReference.cache
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.AssemblyInfoInputs.cache
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.AssemblyInfo.cs
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.csproj.CoreCompileInputs.cache
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.MvcApplicationPartsAssemblyInfo.cs
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.MvcApplicationPartsAssemblyInfo.cache
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.sourcelink.json
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\scopedcss\bundle\SkillUpPlatform.API.styles.css
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.development.json
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpP.FC29E0D0.Up2Date
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\refint\SkillUpPlatform.API.dll
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.pdb
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.genruntimeconfig.cache
+D:\PWD ITI\Finally Graduation Project\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\ref\SkillUpPlatform.API.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.staticwebassets.endpoints.json
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\appsettings.json
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.exe
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.deps.json
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.runtimeconfig.json
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.pdb
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\AutoMapper.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Azure.Core.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Azure.Identity.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Humanizer.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\MediatR.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\MediatR.Contracts.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\StackExchange.Redis.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.CodeDom.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Memory.Data.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Application.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.dll
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Application.pdb
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.pdb
+E:\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.csproj.AssemblyReference.cache
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.AssemblyInfoInputs.cache
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.AssemblyInfo.cs
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.csproj.CoreCompileInputs.cache
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.MvcApplicationPartsAssemblyInfo.cs
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.MvcApplicationPartsAssemblyInfo.cache
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.sourcelink.json
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\scopedcss\bundle\SkillUpPlatform.API.styles.css
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.json
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.development.json
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpP.FC29E0D0.Up2Date
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.dll
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\refint\SkillUpPlatform.API.dll
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.pdb
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.genruntimeconfig.cache
+E:\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\ref\SkillUpPlatform.API.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\appsettings.json
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.staticwebassets.endpoints.json
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\appsettings.Production.json
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.exe
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.deps.json
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.runtimeconfig.json
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.pdb
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\AutoMapper.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Azure.Core.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Azure.Identity.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Humanizer.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\MediatR.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\MediatR.Contracts.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\StackExchange.Redis.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.CodeDom.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Memory.Data.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Application.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Application.pdb
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.pdb
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.csproj.AssemblyReference.cache
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.AssemblyInfoInputs.cache
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.AssemblyInfo.cs
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.csproj.CoreCompileInputs.cache
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.MvcApplicationPartsAssemblyInfo.cs
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.MvcApplicationPartsAssemblyInfo.cache
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.sourcelink.json
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\scopedcss\bundle\SkillUpPlatform.API.styles.css
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.json
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.development.json
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpP.FC29E0D0.Up2Date
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\refint\SkillUpPlatform.API.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.pdb
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.genruntimeconfig.cache
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.API\obj\Debug\net8.0\ref\SkillUpPlatform.API.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\appsettings.json
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\appsettings.Production.json
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.staticwebassets.endpoints.json
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.exe
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.deps.json
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.runtimeconfig.json
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.pdb
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.xml
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\AutoMapper.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Azure.Core.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Azure.Identity.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Humanizer.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\MediatR.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\MediatR.Contracts.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\StackExchange.Redis.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.CodeDom.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Convention.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Drawing.Common.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Memory.Data.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Security.Permissions.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Application.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Application.pdb
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.pdb
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.csproj.AssemblyReference.cache
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.GeneratedMSBuildEditorConfig.editorconfig
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.AssemblyInfoInputs.cache
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.AssemblyInfo.cs
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.csproj.CoreCompileInputs.cache
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.MvcApplicationPartsAssemblyInfo.cs
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.MvcApplicationPartsAssemblyInfo.cache
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.sourcelink.json
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\scopedcss\bundle\SkillUpPlatform.API.styles.css
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.json
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.development.json
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpP.FC29E0D0.Up2Date
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\refint\SkillUpPlatform.API.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.xml
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.pdb
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.genruntimeconfig.cache
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.API\obj\Debug\net8.0\ref\SkillUpPlatform.API.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\appsettings.json
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\appsettings.Production.json
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.staticwebassets.endpoints.json
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.exe
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.deps.json
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.runtimeconfig.json
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.pdb
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.API.xml
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\AutoMapper.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Azure.Core.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Azure.Identity.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Humanizer.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\MediatR.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\StackExchange.Redis.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.CodeDom.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Memory.Data.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Application.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Application.pdb
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Infrastructure.pdb
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.csproj.AssemblyReference.cache
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.AssemblyInfoInputs.cache
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.AssemblyInfo.cs
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.csproj.CoreCompileInputs.cache
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.MvcApplicationPartsAssemblyInfo.cache
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.sourcelink.json
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\scopedcss\bundle\SkillUpPlatform.API.styles.css
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.development.json
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpP.FC29E0D0.Up2Date
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\refint\SkillUpPlatform.API.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.xml
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.pdb
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.genruntimeconfig.cache
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\ref\SkillUpPlatform.API.dll
+D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.API\obj\Debug\net8.0\SkillUpPlatform.API.MvcApplicationPartsAssemblyInfo.cs
