@@ -19,8 +19,11 @@ public class QuestionDto
     public int Id { get; set; }
     public string QuestionText { get; set; } = string.Empty;
     public QuestionType QuestionType { get; set; }
+
     public List<string> Options { get; set; } = new();
     public string? Explanation { get; set; }
+    public string? CorrectAnswer { get; set; }
+
     public int Points { get; set; }
 }
 
@@ -35,4 +38,16 @@ public class AssessmentResultDto
     public bool IsPassed { get; set; }
     public DateTime CompletedAt { get; set; }
     public string? Feedback { get; set; }
+}
+
+public class UserAssessmentDto
+{
+    public int Id { get; set; }
+    public string Title { get; set; } = string.Empty;
+    public int? Score { get; set; }
+    public int MaxScore { get; set; }
+    public DateTime? CompletedAt { get; set; }
+    public bool IsCompleted { get; set; }
+    public bool IsPassed { get; set; }
+    public int AttemptsLeft { get; set; }
 }

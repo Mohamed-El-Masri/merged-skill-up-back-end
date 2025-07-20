@@ -1,4 +1,7 @@
 using SkillUpPlatform.Domain.Entities;
+using System.Collections;
+using System.Linq.Expressions;
+using FileShare = SkillUpPlatform.Domain.Entities.FileShare;
 
 namespace SkillUpPlatform.Domain.Interfaces;
 
@@ -6,8 +9,6 @@ public interface IUserRepository : IGenericRepository<User>
 {
     Task<User?> GetByEmailAsync(string email);
     Task<bool> ExistsByEmailAsync(string email);
-    Task<int> CountNewUsersSinceAsync(DateTime since);
-    Task<int> CountActiveUsersSinceAsync(DateTime since);
     Task<User?> GetUserWithProfileAsync(int userId);
     Task<IEnumerable<User>> GetUsersByRoleAsync(UserRole role);
 }
@@ -50,17 +51,6 @@ public interface IUserProgressRepository : IGenericRepository<UserProgress>
     Task<IEnumerable<UserProgress>> GetUserProgressByContentAsync(int userId, int contentId);
     Task<IEnumerable<UserProgress>> GetUserProgressByLearningPathAsync(int userId, int learningPathId);
     Task<double> GetLearningPathProgressPercentageAsync(int userId, int learningPathId);
-    Task<int> CountAllAsync();
-    Task<int> CountCompletedAsync();
-    Task<double?> GetAverageEngagementTimeAsync();
-
-}
-
-public interface IOrderRepository : IGenericRepository<Order>
-{
-    Task<decimal> GetTotalRevenueAsync();
-    Task<decimal> GetMonthlyRevenueAsync(DateTime since);
-    Task<decimal> GetAverageOrderValueAsync();
 }
 
 public interface IAssessmentResultRepository : IGenericRepository<AssessmentResult>
@@ -69,6 +59,7 @@ public interface IAssessmentResultRepository : IGenericRepository<AssessmentResu
     Task<AssessmentResult?> GetAssessmentResultWithAnswersAsync(int assessmentResultId);
     Task<IEnumerable<AssessmentResult>> GetAssessmentResultsByAssessmentAsync(int assessmentId);
     Task<IEnumerable<AssessmentResult>> GetByUserIdAsync(int userId);
+    Task<IEnumerable<AssessmentResult>> GetByUserIdAndAssessmentIdAsync(int userId, int assessmentId );
 }
 
 public interface IQuestionRepository : IGenericRepository<Question>
@@ -135,12 +126,6 @@ public interface ISystemHealthRepository : IGenericRepository<SystemHealth>
     Task<SystemHealth?> GetByComponentAsync(string component);
 }
 
-public interface ISystemSettingsRepository : IGenericRepository<SystemSettings>
-{
-    Task<SystemSettings?> GetByKeyAsync(string key);
-    Task<List<SystemSettings>> GetByCategoryAsync(string category);
-}
-
 public interface IPasswordResetTokenRepository : IGenericRepository<PasswordResetToken>
 {
     Task<PasswordResetToken?> GetValidTokenAsync(string token);
@@ -158,11 +143,8 @@ public interface IUserSessionRepository : IGenericRepository<UserSession>
     Task<List<UserSession>> GetActiveSessionsAsync(int userId);
     Task<UserSession?> GetBySessionIdAsync(string sessionId);
 }
+public interface IFileShareRepository : IGenericRepository<FileShare> 
+{ 
 
-public interface IErrorLogRepository : IGenericRepository<ErrorLog>
-{
-    Task<List<ErrorLog>> GetAllAsync();
-    Task<List<ErrorLog>> GetBySeverityAsync(string severity);
-    Task<List<ErrorLog>> GetByDateRangeAsync(DateTime start, DateTime end);
 }
 

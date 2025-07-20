@@ -1,3 +1,4 @@
+using BCrypt.Net;
 using MediatR;
 using SkillUpPlatform.Application.Common.Constants;
 using SkillUpPlatform.Application.Common.Models;
@@ -5,7 +6,7 @@ using SkillUpPlatform.Application.Features.Users.Commands;
 using SkillUpPlatform.Application.Interfaces;
 using SkillUpPlatform.Domain.Entities;
 using SkillUpPlatform.Domain.Interfaces;
-using BCrypt.Net;
+using System.Text.Json;
 
 namespace SkillUpPlatform.Application.Features.Users.Handlers;
 

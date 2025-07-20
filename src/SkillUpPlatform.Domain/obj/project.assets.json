@@ -8,35 +8,31 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\aa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Rama2\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
+      "projectUniqueName": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
       "projectName": "SkillUpPlatform.Domain",
-      "projectPath": "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
-      "packagesPath": "C:\\Users\\aa\\.nuget\\packages\\",
-      "outputPath": "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Domain\\obj\\",
+      "projectPath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
+      "packagesPath": "C:\\Users\\Rama2\\.nuget\\packages\\",
+      "outputPath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\aa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Rama2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

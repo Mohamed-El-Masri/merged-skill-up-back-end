@@ -1,9 +1,5 @@
 using MediatR;
 using SkillUpPlatform.Application.Common.Models;
-using SkillUpPlatform.Domain.Entities;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Collections.Generic;
 
 namespace SkillUpPlatform.Application.Features.Admin.Queries;
 
@@ -53,7 +49,7 @@ public class SystemStatisticsDto
 public class UserStatistics
 {
     public int TotalUsers { get; set; }
-    //public int ActiveUsers { get; set; }
+    public int ActiveUsers { get; set; }
     public int NewUsersToday { get; set; }
     public int NewUsersThisWeek { get; set; }
     public int NewUsersThisMonth { get; set; }
@@ -90,7 +86,7 @@ public class GetSystemHealthQuery : IRequest<Result<SystemHealthDto>>
 
 public class SystemHealthDto
 {
-    public HealthStatus Status { get; set; } 
+    public string Status { get; set; } = string.Empty;
     public DateTime LastChecked { get; set; }
     public List<HealthCheckDto> HealthChecks { get; set; } = new();
     public Dictionary<string, object> Metrics { get; set; } = new();
@@ -114,34 +110,17 @@ public class GetAuditLogsQuery : IRequest<Result<PagedResult<AuditLogDto>>>
     public DateTime? EndDate { get; set; }
 }
 
-//public class AuditLogDto
-//{
-//    public int Id { get; set; }
-//    public string Action { get; set; } = string.Empty;
-//    public string UserName { get; set; } = string.Empty;
-//    public string UserEmail { get; set; } = string.Empty;
-//    public DateTime Timestamp { get; set; }
-//    public string Details { get; set; } = string.Empty;
-//    public string IpAddress { get; set; } = string.Empty;
-//    public string UserAgent { get; set; } = string.Empty;
-
-
-//}
-
 public class AuditLogDto
 {
     public int Id { get; set; }
-    public int? UserId { get; set; }
     public string Action { get; set; } = string.Empty;
-    public string EntityType { get; set; } = string.Empty;
-    public int? EntityId { get; set; }
-    public string? OldValues { get; set; }
-    public string? NewValues { get; set; }
+    public string UserName { get; set; } = string.Empty;
+    public string UserEmail { get; set; } = string.Empty;
+    public DateTime Timestamp { get; set; }
+    public string Details { get; set; } = string.Empty;
     public string IpAddress { get; set; } = string.Empty;
     public string UserAgent { get; set; } = string.Empty;
-    public DateTime Timestamp { get; set; }
 }
-
 
 public class GetSystemConfigQuery : IRequest<Result<SystemConfigDto>>
 {
@@ -259,15 +238,6 @@ public class GetUserDetailsQuery : IRequest<Result<AdminUserDetailsDto>>
     public int UserId { get; set; }
 }
 
-public class GetUserActivityQuery : IRequest<Result<List<UserActivityDto>>>
-{
-    public int UserId { get; set; }
-    public DateTime? StartDate { get; set; }
-    public DateTime? EndDate { get; set; }
-    public int Page { get; set; } = 1;
-    public int PageSize { get; set; } = 10;
-}
-
 public class AdminUserDetailsDto
 {
     public int Id { get; set; }
@@ -285,14 +255,14 @@ public class AdminUserDetailsDto
     public Common.Models.UserStatisticsDto Statistics { get; set; } = new();
 }
 
-public class GetUserAnalyticsQuery : IRequest<Result<AdminUserAnalyticsDto>>
+public class GetUserAnalyticsQuery : IRequest<Result<UserAnalyticsDto>>
 {
     public int UserId { get; set; }
     public DateTime? From { get; set; }
     public DateTime? To { get; set; }
 }
 
-public class AdminUserAnalyticsDto
+public class UserAnalyticsDto
 {
     public int UserId { get; set; }
     public string UserName { get; set; } = string.Empty;
@@ -341,24 +311,24 @@ public class GetUserActivitiesQuery : IRequest<PagedResult<Common.Models.UserAct
     public DateTime? To { get; set; }
 }
 
-public class GetUsersAnalyticsQuery : IRequest<Result<AdminUsersAnalyticsDto>>
+public class GetUsersAnalyticsQuery : IRequest<Result<UsersAnalyticsDto>>
 {
     public DateTime? From { get; set; }
     public DateTime? To { get; set; }
 }
 
-public class AdminUsersAnalyticsDto
+public class UsersAnalyticsDto
 {
     public int TotalUsers { get; set; }
     public int ActiveUsers { get; set; }
     public int NewUsers { get; set; }
     public double RetentionRate { get; set; }
     public List<UserGrowthDto> UserGrowth { get; set; } = new();
-    public List<AdminUserEngagementDto> TopEngagedUsers { get; set; } = new();
+    public List<UserEngagementDto> TopEngagedUsers { get; set; } = new();
     public Dictionary<string, int> UsersByRole { get; set; } = new();
 }
 
-public class AdminUserEngagementDto
+public class UserEngagementDto
 {
     public Guid Id { get; set; }
     public string Name { get; set; } = string.Empty;
@@ -367,38 +337,4 @@ public class AdminUserEngagementDto
     public int TotalSessions { get; set; }
     public int CompletedLearningPaths { get; set; }
     public DateTime? LastLogin { get; set; }
-}
-
-// Handler for GetUserAnalyticsQuery
-public class GetUserAnalyticsQueryHandler : IRequestHandler<GetUserAnalyticsQuery, Result<AdminUserAnalyticsDto>>
-{
-    public async Task<Result<AdminUserAnalyticsDto>> Handle(GetUserAnalyticsQuery request, CancellationToken cancellationToken)
-    {
-        // TODO: Replace with real logic
-        if (request.UserId <= 0)
-            return Result<AdminUserAnalyticsDto>.Failure("User not found");
-        return Result<AdminUserAnalyticsDto>.Success(new AdminUserAnalyticsDto { UserId = request.UserId, UserName = "Demo User" });
-    }
-}
-
-// Handler for GetUserActivityQuery
-public class GetUserActivityQueryHandler : IRequestHandler<GetUserActivityQuery, Result<List<UserActivityDto>>>
-{
-    public async Task<Result<List<UserActivityDto>>> Handle(GetUserActivityQuery request, CancellationToken cancellationToken)
-    {
-        // TODO: Replace with real logic
-        if (request.UserId <= 0)
-            return Result<List<UserActivityDto>>.Failure("User not found");
-        return Result<List<UserActivityDto>>.Success(new List<UserActivityDto>());
-    }
-}
-
-// Handler for GetUsersAnalyticsQuery
-public class GetUsersAnalyticsQueryHandler : IRequestHandler<GetUsersAnalyticsQuery, Result<AdminUsersAnalyticsDto>>
-{
-    public async Task<Result<AdminUsersAnalyticsDto>> Handle(GetUsersAnalyticsQuery request, CancellationToken cancellationToken)
-    {
-        // TODO: Replace with real logic
-        return Result<AdminUsersAnalyticsDto>.Success(new AdminUsersAnalyticsDto { TotalUsers = 0, ActiveUsers = 0, NewUsers = 0 });
-    }
 }

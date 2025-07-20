@@ -32,17 +32,6 @@ public class UserRepository : GenericRepository<User>, IUserRepository
     {
         return await _dbSet.Where(u => u.Role == role).ToListAsync();
     }
-
-    public async Task<int> CountNewUsersSinceAsync(DateTime since)
-    {
-        return await _context.Users.CountAsync(u => u.CreatedAt >= since);
-    }
-
-    public async Task<int> CountActiveUsersSinceAsync(DateTime since)
-    {
-        return await _context.Users.CountAsync(u => u.LastLoginAt >= since && u.IsActive);
-    }
-
 }
 
 public class LearningPathRepository : GenericRepository<LearningPath>, ILearningPathRepository
@@ -76,7 +65,4 @@ public class LearningPathRepository : GenericRepository<LearningPath>, ILearning
         // For now, return active learning paths
         return await GetActiveLearningPathsAsync();
     }
-
- 
-
 }

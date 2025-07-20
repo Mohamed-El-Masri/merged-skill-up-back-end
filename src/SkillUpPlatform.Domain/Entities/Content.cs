@@ -14,8 +14,6 @@ public class Content : BaseEntity
     public int DisplayOrder { get; set; }
     public bool IsRequired { get; set; } = true;
     public int LearningPathId { get; set; }
-    public bool IsPublished { get; set; } = false;
-
 
     // Navigation Properties
     public virtual LearningPath LearningPath { get; set; } = null!;

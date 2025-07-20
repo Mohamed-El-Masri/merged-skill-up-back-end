@@ -8,7 +8,7 @@ public class SystemHealth : BaseEntity
     public HealthStatus Status { get; set; }
     public string? ErrorMessage { get; set; }
     public DateTime CheckedAt { get; set; }
-    public DateTime ResponseTimeMs { get; set; }
+    public int ResponseTimeMs { get; set; }
     public Dictionary<string, object> AdditionalInfo { get; set; } = new();
 }
 

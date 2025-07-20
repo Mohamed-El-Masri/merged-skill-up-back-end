@@ -1,8 +1,5 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
-using SkillUpPlatform.API.Middleware;
-using SkillUpPlatform.Application.Interfaces;
-using SkillUpPlatform.Infrastructure.Services;
 using System.Text;
 
 namespace SkillUpPlatform.API.Extensions;
@@ -53,18 +50,6 @@ public static class ServiceCollectionExtensions
             setup.GroupNameFormat = "'v'VVV";
             setup.SubstituteApiVersionInUrl = true;
         });
-
-        services.AddHttpContextAccessor(); // ÷—Ê—Ì ⁄·‘«‰ ‰ﬁœ— ‰Ê’· ·‹ HttpContext
-
-        // Add custom services
-        services.AddScoped<ITokenService, TokenService>();
-        services.AddScoped<IUserContextService, UserContextService>();
-        services.AddScoped<IStatisticsService, StatisticsService>();
-        services.AddScoped<IPerformanceService, PerformanceService>();
-        services.AddScoped<ISystemConfigurationService, SystemConfigurationService>();
-
-
-
 
         return services;
     }

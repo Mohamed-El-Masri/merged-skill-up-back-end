@@ -1,5 +1,6 @@
 using MediatR;
 using SkillUpPlatform.Application.Common.Models;
+using SkillUpPlatform.Application.Features.Progress.Queries;
 
 namespace SkillUpPlatform.Application.Features.Progress.Commands;
 
@@ -153,7 +154,7 @@ public class GetLearningPathProgressQuery : IRequest<Result<LearningPathProgress
     public int LearningPathId { get; set; }
 }
 
-public class GetLearningStreaksQuery : IRequest<Result<LearningStreaksDto>>
+public class GetLearningStreaksQuery : IRequest<Result<LearningStreakDto>>
 {
     public int UserId { get; set; }
 }
@@ -185,15 +186,13 @@ public class ProgressStatisticsDto
     public int WeeklyGoalHours { get; set; }
 }
 
-public class LearningStreaksDto
+/*public class LearningStreaksDto
 {
     public int CurrentStreak { get; set; }
     public int LongestStreak { get; set; }
     public DateTime? LastActivity { get; set; }
     public List<DateTime> ActivityDates { get; set; } = new();
-}
-
-
+}*/
 
 public class DailyTimeDto
 {

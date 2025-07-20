@@ -35,6 +35,7 @@ public class GetRecommendationsQuery : IRequest<Result<List<RecommendationDto>>>
 
 public class GetLearningCalendarQuery : IRequest<Result<LearningCalendarDto>>
 {
+    public int UserId { get; set; }
     public int? Month { get; set; }
     public int? Year { get; set; }
 }
@@ -46,7 +47,7 @@ public class DashboardStudentDashboardDto
     public List<UpcomingDeadlineDto> UpcomingDeadlines { get; set; } = new();
     public List<RecommendationDto> Recommendations { get; set; } = new();
     public List<ProgressQueries_UserAchievementDto> RecentAchievements { get; set; } = new();
-    public LearningStreakDto LearningStreak { get; set; } = new();
+    public StudyStreakDto LearningStreak { get; set; } = new();
 }
 
 public class DashboardOverviewDto

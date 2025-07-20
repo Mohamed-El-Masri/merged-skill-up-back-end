@@ -437,7 +437,7 @@
             Delete content (Content Creator only)
             </summary>
         </member>
-        <member name="M:SkillUpPlatform.API.Controllers.ContentController.MarkContentAsCompleted(System.Int32,SkillUpPlatform.Application.Features.Contentt.Commands.MarkContentAsCompletedCommand)">
+        <member name="M:SkillUpPlatform.API.Controllers.ContentController.CompleteContent(System.Int32)">
             <summary>
             Mark content as completed (Student only)
             </summary>
@@ -449,22 +449,17 @@
         </member>
         <member name="M:SkillUpPlatform.API.Controllers.ContentController.GetNextContent(System.Int32,System.Int32)">
             <summary>
-            Get next content in learning path (Student only)
+            Get next content in learning path
             </summary>
         </member>
         <member name="M:SkillUpPlatform.API.Controllers.ContentController.GetPreviousContent(System.Int32,System.Int32)">
             <summary>
-            Get previous content in learning path (Student only)
+            Get previous content in learning path
             </summary>
         </member>
         <member name="T:SkillUpPlatform.API.Controllers.CreatorController">
             <summary>
             Content creator management endpoints
-            </summary>
-        </member>
-        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.Login(SkillUpPlatform.Application.Features.ContentCreator.Commands.CreatorLoginCommand)">
-            <summary>
-            Login
             </summary>
         </member>
         <member name="M:SkillUpPlatform.API.Controllers.CreatorController.GetDashboard">
@@ -486,7 +481,7 @@
             <response code="200">Learning paths retrieved successfully</response>
             <response code="401">Unauthorized</response>
         </member>
-        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.CreateLearningPath(SkillUpPlatform.Application.Features.ContentCreator.Commands.CreatorCreateLearningPathCommand)">
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.CreateLearningPath(SkillUpPlatform.Application.Features.LearningPaths.Commands.CreateLearningPathCommand)">
             <summary>
             Create new learning path
             </summary>
@@ -574,7 +569,7 @@
             <response code="401">Unauthorized</response>
             <response code="403">Access denied</response>
         </member>
-        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.ProvideFeedback(System.Int32,SkillUpPlatform.Application.Features.ContentCreator.Commands.ProvideFeedbackCommand)">
+        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.ProvideFeedback(System.Guid,SkillUpPlatform.Application.Features.ContentCreator.Commands.ProvideFeedbackCommand)">
             <summary>
             Provide feedback to student
             </summary>
@@ -611,16 +606,6 @@
             <param name="period">Period for analytics</param>
             <returns>Revenue analytics</returns>
             <response code="200">Analytics retrieved successfully</response>
-            <response code="401">Unauthorized</response>
-        </member>
-        <member name="M:SkillUpPlatform.API.Controllers.CreatorController.GetLearningPathById(System.Int32)">
-            <summary>
-            Get a single learning path by ID
-            </summary>
-            <param name="id">Learning path ID</param>
-            <returns>Learning path details</returns>
-            <response code="200">Learning path found</response>
-            <response code="404">Learning path not found</response>
             <response code="401">Unauthorized</response>
         </member>
         <member name="T:SkillUpPlatform.API.Controllers.DashboardController">
@@ -701,7 +686,7 @@
             File management endpoints for all users
             </summary>
         </member>
-        <member name="M:SkillUpPlatform.API.Controllers.FilesController.Upload(Microsoft.AspNetCore.Http.IFormFile,System.String,System.String)">
+        <member name="M:SkillUpPlatform.API.Controllers.FilesController.Upload(Microsoft.AspNetCore.Http.IFormFile,System.String,System.String,System.Boolean)">
             <summary>
             Upload a file
             </summary>
@@ -838,11 +823,6 @@
         <member name="M:SkillUpPlatform.API.Controllers.LearningPathsController.GetMyLearningPaths">
             <summary>
             Get user's enrolled learning paths
-            </summary>
-        </member>
-        <member name="M:SkillUpPlatform.API.Controllers.LearningPathsController.RecommendLearningPaths(SkillUpPlatform.Application.Features.LearningPaths.Commands.RecommendLearningPathCommand)">
-            <summary>
-            Recommend learning paths for the current user
             </summary>
         </member>
         <member name="T:SkillUpPlatform.API.Controllers.NotificationsController">
@@ -1088,14 +1068,14 @@
             Update resource (Content Creator only)
             </summary>
         </member>
-        <member name="M:SkillUpPlatform.API.Controllers.ResourcesController.DownloadResource(System.Int32)">
-            <summary>
-            Download resource file
-            </summary>
-        </member>
         <member name="M:SkillUpPlatform.API.Controllers.ResourcesController.DeleteResource(System.Int32)">
             <summary>
             Delete resource (Content Creator only)
+            </summary>
+        </member>
+        <member name="M:SkillUpPlatform.API.Controllers.ResourcesController.DownloadResource(System.Int32)">
+            <summary>
+            Download resource file
             </summary>
         </member>
         <member name="T:SkillUpPlatform.API.Controllers.UsersController">
@@ -1118,7 +1098,7 @@
             Change user password
             </summary>
         </member>
-        <member name="M:SkillUpPlatform.API.Controllers.UsersController.UpdatePreferences(SkillUpPlatform.Application.Features.Auth.Commands.UpdateUserPreferencesCommand)">
+        <member name="M:SkillUpPlatform.API.Controllers.UsersController.UpdatePreferences(SkillUpPlatform.Application.Features.Users.Commands.UpdateUserPreferencesCommand)">
             <summary>
             Update user preferences
             </summary>

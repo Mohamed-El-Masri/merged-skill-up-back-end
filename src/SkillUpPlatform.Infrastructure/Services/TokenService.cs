@@ -13,19 +13,17 @@ public class TokenService : ITokenService
     private readonly IConfiguration _configuration;
     private readonly string _secretKey;
     private readonly string _issuer;
-    private readonly int _expirationMinutes;
     private readonly string _audience;
+    private readonly int _expirationMinutes;
 
     public TokenService(IConfiguration configuration)
     {
         _configuration = configuration;
         _secretKey = _configuration["JwtSettings:SecretKey"];
         _issuer = _configuration["JwtSettings:Issuer"];
-        _audience = _configuration["JwtSettings:Audience"]; // ? √÷›‰« œÂ
+        _audience = _configuration["JwtSettings:Audience"];
         _expirationMinutes = int.Parse(_configuration["JwtSettings:ExpirationInMinutes"]);
     }
-
-     
 
     public string GenerateJwtToken(int userId, string email, string role)
     {
@@ -45,7 +43,7 @@ public class TokenService : ITokenService
             }),
             Expires = DateTime.UtcNow.AddMinutes(_expirationMinutes),
             Issuer = _issuer,
-            Audience = _audience, // ? »œ· _issuer
+            Audience = _audience,
             SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
         };
 
@@ -85,7 +83,7 @@ public class TokenService : ITokenService
                 ValidateIssuer = true,
                 ValidIssuer = _issuer,
                 ValidateAudience = true,
-                ValidAudience = _audience, // ? »œ· _issuer
+                ValidAudience = _audience,
                 ClockSkew = TimeSpan.Zero
             }, out SecurityToken validatedToken);
 
@@ -111,7 +109,7 @@ public class TokenService : ITokenService
                 ValidateIssuer = true,
                 ValidIssuer = _issuer,
                 ValidateAudience = true,
-                ValidAudience = _issuer,
+                ValidAudience = _audience,
                 ClockSkew = TimeSpan.Zero
             }, out SecurityToken validatedToken);
 

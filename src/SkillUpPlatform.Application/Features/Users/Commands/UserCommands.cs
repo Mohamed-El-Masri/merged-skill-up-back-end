@@ -36,7 +36,7 @@ public class UpdateUserProfileCommand : IRequest<Result<bool>>
 
 public class UpdateUserNotificationSettingsCommand : IRequest<Result>
 {
-    public Guid UserId { get; set; }
+    public int UserId { get; set; }
     public bool EmailNotifications { get; set; }
     public bool PushNotifications { get; set; }
     public bool LearningReminders { get; set; }
@@ -47,16 +47,26 @@ public class UpdateUserNotificationSettingsCommand : IRequest<Result>
 
 public class DeleteUserAccountCommand : IRequest<Result>
 {
-    public Guid UserId { get; set; }
+    public int UserId { get; set; }
     public string Reason { get; set; } = string.Empty;
     public string Password { get; set; } = string.Empty;
 }
 
 public class UploadProfilePictureCommand : IRequest<Result<string>>
 {
-    public Guid UserId { get; set; }
+    public int UserId { get; set; }
     public Stream FileStream { get; set; } = Stream.Null;
     public string FileName { get; set; } = string.Empty;
     public string ContentType { get; set; } = string.Empty;
     public long FileSize { get; set; }
+}
+
+public class UpdateUserPreferencesCommand : IRequest<Result>
+{
+    public int UserId { get; set; }
+    public string Language { get; set; } = string.Empty;
+    public string TimeZone { get; set; } = string.Empty;
+    public bool EmailNotifications { get; set; }
+    public bool PushNotifications { get; set; }
+    public Dictionary<string, object> Preferences { get; set; } = new();
 }

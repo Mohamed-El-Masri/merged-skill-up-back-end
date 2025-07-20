@@ -1,5 +1,3 @@
-using SkillUpPlatform.Domain.Entities;
-
 namespace SkillUpPlatform.Application.Common.Models;
 
 public class ContentProgressDto
@@ -110,21 +108,6 @@ public class CreatorLearningPathDto
     public string Status { get; set; } = string.Empty;
     public DateTime CreatedAt { get; set; }
     public DateTime? UpdatedAt { get; set; }
-    public int EstimatedDurationHours { get; set; }
-    public DifficultyLevel DifficultyLevel { get; set; }
-    public List<string> Prerequisites { get; set; } // JSON string
-    public List<string> LearningObjectives { get; set; } 
-    public string Category { get; set; } = string.Empty;
-    public bool IsActive { get; set; } = true;
-    public bool IsPublished { get; set; }
-    public int DisplayOrder { get; set; }
-    public int EstimatedDuration { get; set; }
-    public List<string> Tags { get; set; } = new();
-    public int EnrollmentCount { get; set; } = 0;
-    public double ReviewCount { get; set; } 
-
-
-
 }
 
 public class UserDto
@@ -148,7 +131,6 @@ public class UserLearningPathDto
     public DateTime EnrollmentDate { get; set; }
     public DateTime? CompletionDate { get; set; }
     public string Status { get; set; } = string.Empty;
-    public string ImageUrl { get; set; } = string.Empty;
 }
 
 public class UserActivityDto
@@ -316,12 +298,11 @@ public class UserEngagementDto
     public double EngagementScore { get; set; }
 }
 
-public class FileDownloadDto
+/*public class FileDownloadDto
 {
     public byte[] Content { get; set; } = Array.Empty<byte>();
     public string ContentType { get; set; } = string.Empty;
     public string FileName { get; set; } = string.Empty;
 }
-
-
+*/
 

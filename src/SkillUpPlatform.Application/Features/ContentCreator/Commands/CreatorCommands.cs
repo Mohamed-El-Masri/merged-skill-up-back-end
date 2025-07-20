@@ -1,17 +1,14 @@
 using MediatR;
 using SkillUpPlatform.Application.Common.Models;
-using SkillUpPlatform.Domain.Entities;
 
 namespace SkillUpPlatform.Application.Features.ContentCreator.Commands;
 
-public class CreatorCreateLearningPathCommand
-      : MediatR.IRequest<SkillUpPlatform.Application.Common.Models.Result<SkillUpPlatform.Application.Common.Models.CreatorLearningPathDto>>
-//: IRequest<Result<CreatorLearningPathDto>>
+public class CreateLearningPathCommand : IRequest<Result<CreatorLearningPathDto>>
 {
     public string Title { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public string Category { get; set; } = string.Empty;
-    public DifficultyLevel DifficultyLevel { get; set; }
+    public string DifficultyLevel { get; set; } = string.Empty;
     public int EstimatedDuration { get; set; }
     public decimal Price { get; set; }
     public bool IsPublished { get; set; }
@@ -20,27 +17,25 @@ public class CreatorCreateLearningPathCommand
     public List<string> LearningObjectives { get; set; } = new();
 }
 
-public class UpdateLearningPathCommand
-      : MediatR.IRequest<SkillUpPlatform.Application.Common.Models.Result<SkillUpPlatform.Application.Common.Models.CreatorLearningPathDto>>
-//: IRequest<Result<CreatorLearningPathDto>>
+public class UpdateLearningPathCommand : IRequest<Result<CreatorLearningPathDto>>
 {
-    public int Id { get; set; }
+    public Guid Id { get; set; }
     public string Title { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public string Category { get; set; } = string.Empty;
-    public DifficultyLevel DifficultyLevel { get; set; }
+    public string DifficultyLevel { get; set; } = string.Empty;
     public int EstimatedDuration { get; set; }
     public decimal Price { get; set; }
     public bool IsPublished { get; set; }
     public List<string> Tags { get; set; } = new();
     public List<string> Prerequisites { get; set; } = new();
-    public List<string> LearningObjectives { get; set; } = new(); 
+    public List<string> LearningObjectives { get; set; } = new();
 }
 
 public class ProvideFeedbackCommand : IRequest<Result>
 {
-    public int StudentId { get; set; }
-    public int LearningPathId { get; set; }
+    public Guid StudentId { get; set; }
+    public Guid LearningPathId { get; set; }
     public string FeedbackText { get; set; } = string.Empty;
     public int Rating { get; set; }
     public List<string> Suggestions { get; set; } = new();

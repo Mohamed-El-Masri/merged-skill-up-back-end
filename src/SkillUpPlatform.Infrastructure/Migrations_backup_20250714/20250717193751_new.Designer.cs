@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SkillUpPlatform.Infrastructure.Data;
 
@@ -11,9 +12,11 @@ using SkillUpPlatform.Infrastructure.Data;
 namespace SkillUpPlatform.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250717193751_new")]
+    partial class @new
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -109,9 +112,6 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     b.Property<int?>("LearningPathId")
                         .HasColumnType("int");
 
-                    b.Property<int>("MaxScore")
-                        .HasColumnType("int");
-
                     b.Property<int>("PassingScore")
                         .HasColumnType("int");
 
@@ -150,9 +150,6 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     b.Property<int>("AssessmentId")
                         .HasColumnType("int");
 
-                    b.Property<int>("AttemptNumber")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("CompletedAt")
                         .HasColumnType("datetime2");
 
@@ -180,10 +177,6 @@ namespace SkillUpPlatform.Infrastructure.Migrations
 
                     b.Property<int>("Score")
                         .HasColumnType("int");
-
-                    b.Property<string>("Suggestions")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("TimeSpentMinutes")
                         .HasColumnType("int");
@@ -305,9 +298,6 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("IsPublished")
-                        .HasColumnType("bit");
-
                     b.Property<bool>("IsRequired")
                         .HasColumnType("bit");
 
@@ -385,33 +375,6 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     b.ToTable("EmailVerificationTokens");
                 });
 
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.ErrorLog", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Message")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Severity")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("StackTrace")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("Timestamp")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("ErrorLogs");
-                });
-
             modelBuilder.Entity("SkillUpPlatform.Domain.Entities.FileShare", b =>
                 {
                     b.Property<int>("Id")
@@ -421,10 +384,7 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("AccessLevel")
-                        .ValueGeneratedOnAdd()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)")
-                        .HasDefaultValue("Read");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
@@ -440,6 +400,9 @@ namespace SkillUpPlatform.Infrastructure.Migrations
 
                     b.Property<DateTime>("SharedAt")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("SharedBy")
+                        .HasColumnType("int");
 
                     b.Property<int>("SharedByUserId")
                         .HasColumnType("int");
@@ -547,9 +510,6 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("CreatorId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasMaxLength(2000)
@@ -559,9 +519,6 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("DisplayOrder")
-                        .HasColumnType("int");
-
-                    b.Property<int>("EstimatedDuration")
                         .HasColumnType("int");
 
                     b.Property<int>("EstimatedDurationHours")
@@ -577,22 +534,11 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("IsPublished")
-                        .HasColumnType("bit");
-
                     b.Property<string>("LearningObjectives")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Prerequisites")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("Price")
-                        .HasPrecision(18, 2)
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("Tags")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -608,8 +554,6 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CreatorId");
 
                     b.ToTable("LearningPaths");
                 });
@@ -719,31 +663,6 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("NotificationSettings");
-                });
-
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.Order", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<decimal>("TotalAmount")
-                        .HasPrecision(18, 2)
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("SkillUpPlatform.Domain.Entities.PasswordResetToken", b =>
@@ -945,8 +864,8 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<DateTime>("ResponseTimeMs")
-                        .HasColumnType("datetime2");
+                    b.Property<int>("ResponseTimeMs")
+                        .HasColumnType("int");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
@@ -1039,9 +958,6 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -1307,9 +1223,6 @@ namespace SkillUpPlatform.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("AmmountPaid")
-                        .HasColumnType("int");
-
                     b.Property<DateTime?>("CompletedAt")
                         .HasColumnType("datetime2");
 
@@ -1325,22 +1238,13 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<DateTime>("LastAccessed")
-                        .HasColumnType("datetime2");
-
                     b.Property<int>("LearningPathId")
                         .HasColumnType("int");
 
                     b.Property<int>("ProgressPercentage")
                         .HasColumnType("int");
 
-                    b.Property<int>("SessionCount")
-                        .HasColumnType("int");
-
                     b.Property<int>("Status")
-                        .HasColumnType("int");
-
-                    b.Property<int>("TotalMinutesSpent")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("UpdatedAt")
@@ -1451,9 +1355,6 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<DateTime>("LastAccessed")
-                        .HasColumnType("datetime2");
-
                     b.Property<int>("ProgressPercentage")
                         .HasColumnType("int");
 
@@ -1493,6 +1394,9 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("ExpiresAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("IpAddress")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -1508,6 +1412,10 @@ namespace SkillUpPlatform.Infrastructure.Migrations
 
                     b.Property<DateTime?>("LogoutTime")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("RefreshToken")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SessionId")
                         .IsRequired()
@@ -1598,19 +1506,19 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     b.HasOne("SkillUpPlatform.Domain.Entities.FileUpload", "FileUpload")
                         .WithMany("FileShares")
                         .HasForeignKey("FileUploadId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("SkillUpPlatform.Domain.Entities.User", "SharedByUser")
                         .WithMany()
                         .HasForeignKey("SharedByUserId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("SkillUpPlatform.Domain.Entities.User", "SharedWithUser")
                         .WithMany()
                         .HasForeignKey("SharedWithUserId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("FileUpload");
@@ -1631,17 +1539,6 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.LearningPath", b =>
-                {
-                    b.HasOne("SkillUpPlatform.Domain.Entities.User", "Creator")
-                        .WithMany()
-                        .HasForeignKey("CreatorId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Creator");
-                });
-
             modelBuilder.Entity("SkillUpPlatform.Domain.Entities.Notification", b =>
                 {
                     b.HasOne("SkillUpPlatform.Domain.Entities.User", "User")
@@ -1654,17 +1551,6 @@ namespace SkillUpPlatform.Infrastructure.Migrations
                 });
 
             modelBuilder.Entity("SkillUpPlatform.Domain.Entities.NotificationSettings", b =>
-                {
-                    b.HasOne("SkillUpPlatform.Domain.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("SkillUpPlatform.Domain.Entities.Order", b =>
                 {
                     b.HasOne("SkillUpPlatform.Domain.Entities.User", "User")
                         .WithMany()

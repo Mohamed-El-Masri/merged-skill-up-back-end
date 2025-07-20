@@ -34,17 +34,41 @@ public class FilesController : BaseController
     [ProducesResponseType(typeof(Result<FileUploadDto>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(Result), StatusCodes.Status400BadRequest)]
     [ProducesResponseType(typeof(Result), StatusCodes.Status401Unauthorized)]
-    public async Task<IActionResult> Upload([FromForm] IFormFile file, [FromForm] string? description = null, [FromForm] string? category = null)
+    /*public async Task<IActionResult> Upload([FromForm] IFormFile file, [FromForm] string? description = null, [FromForm] string? category = null)
     {
         var command = new UploadFileCommand
         {
+            UserId = GetCurrentUserId(),
             File = file,
             Description = description,
             Category = category
         };
         return HandleResult(await _mediator.Send(command));
-    }
+    }*/
+    public async Task<IActionResult> Upload(
+            [FromForm] IFormFile file,
+            [FromForm] string? description = null,
+            [FromForm] string? category = null,
+            [FromForm] bool isPublic = false)
+    {
+        if (file == null || file.Length == 0)
+        {
+            return BadRequest(Result.Failure("No file provided or file is empty."));
+        }
 
+        var command = new UploadFileCommand
+        {
+            UserId = GetCurrentUserId(),
+            File = file,
+            FileName = file.FileName,
+            OriginalFileName = file.FileName,
+            FileType = file.ContentType,
+            Description = description,
+            Category = category,
+        };
+
+        return HandleResult(await _mediator.Send(command));
+    }
     /// <summary>
     /// Upload multiple files
     /// </summary>
@@ -62,6 +86,7 @@ public class FilesController : BaseController
     {
         var command = new UploadMultipleFilesCommand
         {
+            UserId = GetCurrentUserId(),
             Files = files,
             Category = category
         };
@@ -154,7 +179,11 @@ public class FilesController : BaseController
     [ProducesResponseType(typeof(Result), StatusCodes.Status403Forbidden)]
     public async Task<IActionResult> Delete(int id)
     {
-        var command = new DeleteFileCommand { FileId = id };
+        var command = new DeleteFileCommand 
+        { 
+            FileId = id,
+            UserId = GetCurrentUserId()
+        };
         return HandleResult(await _mediator.Send(command));
     }
 
@@ -175,6 +204,7 @@ public class FilesController : BaseController
     [ProducesResponseType(typeof(Result), StatusCodes.Status403Forbidden)]
     public async Task<IActionResult> Update(int id, [FromBody] UpdateFileCommand command)
     {
+        command.UserId = GetCurrentUserId();
         command.FileId = id;
         return HandleResult(await _mediator.Send(command));
     }

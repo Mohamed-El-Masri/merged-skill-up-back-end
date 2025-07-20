@@ -12,7 +12,17 @@ public interface IUnitOfWork : IDisposable
     IQuestionRepository Questions { get; }
     IUserAnswerRepository UserAnswers { get; }
     IUserLearningPathRepository UserLearningPaths { get; }
-    ISystemSettingsRepository SystemSettings { get; }
+    IFileUploadRepository FileUploadRepository { get; }
+    INotificationRepository NotificationRepository { get; }
+    IAchievementRepository AchievementRepository { get; }
+    IUserGoalRepository UserGoalRepository { get; }
+    IAuditLogRepository AuditLogRepository { get; }
+    IUserActivityRepository UserActivityRepository { get; }
+    ISystemHealthRepository SystemHealthRepository { get; }
+    IEmailVerificationTokenRepository EmailVerificationTokens { get; }
+    IPasswordResetTokenRepository PasswordResetTokens { get; }
+    IUserSessionRepository UserSessions { get; }
+    IFileShareRepository FileShareRepository { get; }
 
     Task<int> SaveChangesAsync();
     Task BeginTransactionAsync();

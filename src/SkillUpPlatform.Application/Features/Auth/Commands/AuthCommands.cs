@@ -1,6 +1,5 @@
 using MediatR;
 using SkillUpPlatform.Application.Common.Models;
-using SkillUpPlatform.Domain.Entities;
 
 namespace SkillUpPlatform.Application.Features.Auth.Commands;
 
@@ -11,7 +10,7 @@ public class RegisterCommand : IRequest<Result<AuthResult>>
     public string Email { get; set; } = string.Empty;
     public string Password { get; set; } = string.Empty;
     public string ConfirmPassword { get; set; } = string.Empty;
-    public int Role { get; set; } = (int)SkillUpPlatform.Domain.Entities.UserRole.Student; // Default to Student
+    public int Role { get; set; } = 1; // Default to Student
 }
 
 public class LoginCommand : IRequest<Result<AuthResult>>
@@ -98,13 +97,4 @@ public class ValidateResetTokenCommand : IRequest<Result<bool>>
 {
     public string Email { get; set; } = string.Empty;
     public string Token { get; set; } = string.Empty;
-}
-
-public class UpdateUserPreferencesCommand : IRequest<Result>
-{
-    public string Language { get; set; } = string.Empty;
-    public string TimeZone { get; set; } = string.Empty;
-    public bool EmailNotifications { get; set; }
-    public bool PushNotifications { get; set; }
-    public Dictionary<string, object> Preferences { get; set; } = new();
 }

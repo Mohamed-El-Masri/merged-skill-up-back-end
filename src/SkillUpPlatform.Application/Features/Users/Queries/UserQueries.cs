@@ -41,6 +41,24 @@ public class GetUserStatisticsQuery : IRequest<Result<UserQueries_UserStatistics
     public int UserId { get; set; }
 }
 
+
+/* Updated DTO for user statistics
+    public class UserQueries_UserStatisticsDto
+    {
+        public int UserId { get; set; }
+        public int TotalLearningPaths { get; set; }
+        public int CompletedLearningPaths { get; set; }
+        public double AverageLearningPathProgress { get; set; }
+        public int TotalContent { get; set; }
+        public int CompletedContent { get; set; }
+        public int TotalTimeSpentMinutes { get; set; }
+        public int TotalAssessments { get; set; }
+        public int CompletedAssessments { get; set; }
+        public int UnreadNotifications { get; set; }
+        public double ProfileCompletenessPercentage { get; set; }
+    }*/
+
+
 public class UserQueries_UserStatisticsDto
 {
     public TimeSpan TotalTimeSpent { get; set; }
@@ -73,7 +91,7 @@ public class GetUserLearningHistoryQuery : IRequest<Result<PagedResult<UserLearn
 
 public class UserLearningHistoryDto
 {
-    public Guid Id { get; set; }
+    public int Id { get; set; }
     public string Title { get; set; } = string.Empty;
     public string Type { get; set; } = string.Empty;
     public string Category { get; set; } = string.Empty;
@@ -90,7 +108,7 @@ public class GetUserAchievementsQuery : IRequest<Result<List<UserQueries_UserAch
 
 public class UserQueries_UserAchievementDto
 {
-    public Guid Id { get; set; }
+    public int Id { get; set; }
     public string Title { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public string Icon { get; set; } = string.Empty;

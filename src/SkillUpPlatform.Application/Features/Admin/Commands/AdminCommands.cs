@@ -12,7 +12,7 @@ public class CreateAdminUserCommand : IRequest<Result<AdminUserDto>>
     public string Role { get; set; } = string.Empty;
 }
 
-public class UpdateSystemConfigCommand : IRequest<Result<string>>
+public class UpdateSystemConfigCommand : IRequest<Result>
 {
     public string Key { get; set; } = string.Empty;
     public string Value { get; set; } = string.Empty;
@@ -65,9 +65,16 @@ public class ActivateUserCommand : IRequest<Result>
     public int UserId { get; set; }
 }
 
+public class GetUserActivityQuery : IRequest<Result<List<UserActivityDto>>>
+{
+    public int UserId { get; set; }
+    public DateTime? StartDate { get; set; }
+    public DateTime? EndDate { get; set; }
+    public int Page { get; set; } = 1;
+    public int PageSize { get; set; } = 10;
+}
 
-
-public class ExportUsersQuery : IRequest<Result<FileDownloadDto>>
+public class ExportUsersQuery : IRequest<Result<Files.Queries.FileDownloadDto>>
 {
     public string? Format { get; set; } = "csv";
     public string? FilterByRole { get; set; }

@@ -6,10 +6,6 @@ using SkillUpPlatform.Application.Features.Admin.Queries;
 using SkillUpPlatform.Application.Common.Models;
 using Common = SkillUpPlatform.Application.Common;
 
-using CommonModels = SkillUpPlatform.Application.Common.Models;
-using AdminQueries = SkillUpPlatform.Application.Features.Admin.Queries;
-
-
 namespace SkillUpPlatform.API.Controllers;
 
 /// <summary>
@@ -24,7 +20,6 @@ public class AdminUsersController : BaseController
     public AdminUsersController(IMediator mediator) : base(mediator)
     {
     }
-
     /// <summary>
     /// Get all users
     /// </summary>
@@ -46,11 +41,6 @@ public class AdminUsersController : BaseController
         [FromQuery] string? role = null,
         [FromQuery] string? status = null)
     {
-        // Validate pagination parameters
-        if (page < 1) page = 1;
-        if (pageSize < 1) pageSize = 20;
-        if (pageSize > 100) pageSize = 100; // Limit max page size
-
         var query = new GetUsersQuery
         {
             Page = page,
@@ -61,8 +51,6 @@ public class AdminUsersController : BaseController
         };
         return HandleResult(await _mediator.Send(query));
     }
-
-
 
     /// <summary>
     /// Get user details
@@ -81,8 +69,6 @@ public class AdminUsersController : BaseController
         var query = new GetUserDetailsQuery { UserId = id };
         return HandleResult(await _mediator.Send(query));
     }
-
-
 
     /// <summary>
     /// Update user
@@ -292,6 +278,6 @@ public class AdminUsersController : BaseController
             return HandleResult(result);
             
         var exportData = result.Data!;
-        return File(exportData.Content, exportData.ContentType, exportData.FileName);
+        return File(exportData.FileContent, exportData.FileType, exportData.FileName);
     }
 }

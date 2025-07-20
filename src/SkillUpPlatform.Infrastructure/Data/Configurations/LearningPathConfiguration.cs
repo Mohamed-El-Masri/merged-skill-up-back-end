@@ -63,14 +63,6 @@ public class LearningPathConfiguration : IEntityTypeConfiguration<LearningPath>
         builder.Property(lp => lp.LearningObjectives)
             .HasColumnType("nvarchar(max)");
 
-        builder.Property(lp => lp.Price)
-            .HasPrecision(18, 2);
-
-        builder.HasOne(lp => lp.Creator)
-            .WithMany()
-            .HasForeignKey(lp => lp.CreatorId)
-            .OnDelete(DeleteBehavior.Restrict);
-
         builder.HasMany(lp => lp.Contents)
             .WithOne(c => c.LearningPath)
             .HasForeignKey(c => c.LearningPathId)

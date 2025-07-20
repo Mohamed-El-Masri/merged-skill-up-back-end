@@ -22,7 +22,7 @@ public class CreatorDashboardDto
 
 public class PopularLearningPathDto
 {
-    public int Id { get; set; }
+    public Guid Id { get; set; }
     public string Title { get; set; } = string.Empty;
     public int EnrollmentCount { get; set; }
     public double AverageRating { get; set; }
@@ -31,7 +31,7 @@ public class PopularLearningPathDto
 
 public class RecentEnrollmentDto
 {
-    public int Id { get; set; }
+    public Guid Id { get; set; }
     public string StudentName { get; set; } = string.Empty;
     public string LearningPathTitle { get; set; } = string.Empty;
     public DateTime EnrollmentDate { get; set; }
@@ -40,7 +40,7 @@ public class RecentEnrollmentDto
 
 public class ReviewDto
 {
-    public int Id { get; set; }
+    public Guid Id { get; set; }
     public string StudentName { get; set; } = string.Empty;
     public string LearningPathTitle { get; set; } = string.Empty;
     public int Rating { get; set; }
@@ -83,7 +83,7 @@ public class GetRevenueAnalyticsQuery : IRequest<Result<CreatorRevenueAnalyticsD
 
 public class LearningPathAnalyticsDto
 {
-    public int Id { get; set; }
+    public Guid Id { get; set; }
     public string Title { get; set; } = string.Empty;
     public int TotalEnrollments { get; set; }
     public int CompletedEnrollments { get; set; }
@@ -110,25 +110,25 @@ public class RatingDistributionDto
     public double Percentage { get; set; }
 }
 
-public class GetCreatorStudentsQuery : IRequest<Result<PagedResult<CreatorStudentDto>>>
+public class GetCreatorStudentsQuery : IRequest<PagedResult<CreatorStudentDto>>
 {
     public int Page { get; set; } = 1;
     public int PageSize { get; set; } = 10;
-    public int? LearningPathId { get; set; }
+    public Guid? LearningPathId { get; set; }
     public string? Search { get; set; }
     public string? ProgressStatus { get; set; }
 }
 
 public class CreatorStudentDto
 {
-    public int Id { get; set; }
-    public string FirstName { get; set; } = string.Empty;
-    public string LastName { get; set; } = string.Empty;
+    public Guid Id { get; set; }
+    public string Name { get; set; } = string.Empty;
     public string Email { get; set; } = string.Empty;
-    public DateTime EnrolledAt { get; set; }
-    public DateTime? LastAccessed { get; set; }
+    public string LearningPathTitle { get; set; } = string.Empty;
+    public DateTime EnrollmentDate { get; set; }
     public int ProgressPercentage { get; set; }
-    public bool IsActive { get; set; }
+    public DateTime? LastAccessed { get; set; }
+    public string Status { get; set; } = string.Empty;
 }
 
 public class GetStudentProgressQuery : IRequest<Result<StudentProgressDto>>
@@ -139,21 +139,21 @@ public class GetStudentProgressQuery : IRequest<Result<StudentProgressDto>>
 
 public class StudentProgressDto
 {
-    public int StudentId { get; set; }
+    public Guid StudentId { get; set; }
     public string StudentName { get; set; } = string.Empty;
-    public int LearningPathId { get; set; }
+    public Guid LearningPathId { get; set; }
     public string LearningPathTitle { get; set; } = string.Empty;
     public DateTime EnrollmentDate { get; set; }
     public int ProgressPercentage { get; set; }
     public DateTime? LastAccessed { get; set; }
     public TimeSpan TotalTimeSpent { get; set; }
-    public List<CreatorContentProgressDto> ContentProgress { get; set; } = new();
+    public List<ContentProgressDto> ContentProgress { get; set; } = new();
     public List<CreatorAssessmentResultDto> AssessmentResults { get; set; } = new();
 }
 
 public class CreatorAssessmentResultDto
 {
-    public int Id { get; set; }
+    public Guid Id { get; set; }
     public string AssessmentTitle { get; set; } = string.Empty;
     public int Score { get; set; }
     public int MaxScore { get; set; }
@@ -233,24 +233,13 @@ public class CreatorLearningPathRevenueDto
 
 public class EnrolledStudentDto
 {
-    public int Id { get; set; }
-    public string StudentName { get; set; } = string.Empty;
-    public string StudentEmail { get; set; } = string.Empty;
-    public string LearningPathTitle { get; set; } = string.Empty;
+    public int UserId { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public string Email { get; set; } = string.Empty;
     public DateTime EnrollmentDate { get; set; }
-    public int ProgressPercentage { get; set; }
-    public DateTime? LastAccessed { get; set; }
-    public string Status { get; set; } = string.Empty;
-}
-
-public class CreatorContentProgressDto
-{
-    public int ContentId { get; set; }
-    public string ContentTitle { get; set; } = string.Empty;
-    public int ProgressPercentage { get; set; }
-    public bool IsCompleted { get; set; }
-    public int TimeSpentMinutes { get; set; }
-    public DateTime? LastAccessed { get; set; }
+    public double Progress { get; set; }
+    public DateTime LastActivity { get; set; }
+    public TimeSpan TotalTimeSpent { get; set; }
 }
 
 public class GetLearningPathAnalyticsQuery : IRequest<Result<LearningPathAnalyticsDto>>

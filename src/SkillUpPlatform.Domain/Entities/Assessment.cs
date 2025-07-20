@@ -10,8 +10,6 @@ public class Assessment : BaseEntity
     public AssessmentType AssessmentType { get; set; }
     public int TimeLimit { get; set; } // in minutes
     public int PassingScore { get; set; } // percentage
-    public int MaxScore { get; set; } // percentage
-
     public bool IsActive { get; set; } = true;
     public int? LearningPathId { get; set; }
 

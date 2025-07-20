@@ -29,7 +29,11 @@ public class DashboardController : BaseController
     [ProducesResponseType(typeof(Result), StatusCodes.Status401Unauthorized)]
     public async Task<IActionResult> GetOverview()
     {
-        var query = new GetDashboardOverviewQuery();
+
+        var query = new GetDashboardOverviewQuery()
+        {
+            UserId = GetCurrentUserId(),
+        };
         return HandleResult(await _mediator.Send(query));
     }
 

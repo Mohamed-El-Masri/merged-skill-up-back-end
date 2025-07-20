@@ -33,13 +33,13 @@ public class GetSharedFilesQuery : IRequest<Result<List<FileUploadDto>>>
     public string? AccessLevel { get; set; }
 }
 
-public class DownloadFileQuery : IRequest<Result<FileDownloadInfoDto>>
+public class DownloadFileQuery : IRequest<Result<FileDownloadDto>>
 {
     public int FileId { get; set; }
     public int UserId { get; set; }
 }
 
-public class FileDownloadInfoDto
+public class FileDownloadDto
 {
     public string FileName { get; set; } = string.Empty;
     public string FileType { get; set; } = string.Empty;
@@ -47,7 +47,7 @@ public class FileDownloadInfoDto
     public long FileSize { get; set; }
 }
 
-public class GetFileDownloadQuery : IRequest<Result<FileDownloadInfoDto>>
+public class GetFileDownloadQuery : IRequest<Result<FileDownloadDto>>
 {
     public int FileId { get; set; }
     public int UserId { get; set; }

@@ -14,10 +14,7 @@ public class AssessmentResult : BaseEntity
     public bool IsPassed { get; set; }
     public DateTime CompletedAt { get; set; }
     public string? Feedback { get; set; }
-    public string Suggestions { get; set; } 
     public string? AIFeedback { get; set; }
-    public int AttemptNumber { get; set; }
-
 
     // Navigation Properties
     public virtual User User { get; set; } = null!;

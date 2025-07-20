@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
 using SkillUpPlatform.Domain.Entities;
 using SkillUpPlatform.Infrastructure.Data.Configurations;
 using System.Text.Json;
@@ -13,7 +12,6 @@ public class ApplicationDbContext : DbContext
     }
 
     public DbSet<User> Users { get; set; }
-    public DbSet<Order> Orders { get; set; }
     public DbSet<UserProfile> UserProfiles { get; set; }
     public DbSet<LearningPath> LearningPaths { get; set; }
     public DbSet<Content> Contents { get; set; }
@@ -36,17 +34,8 @@ public class ApplicationDbContext : DbContext
     public DbSet<UserActivity> UserActivities { get; set; }
     public DbSet<SystemSettings> SystemSettings { get; set; }
     public DbSet<UserSession> UserSessions { get; set; }
-    public DbSet<ErrorLog> ErrorLogs { get; set; }
     public DbSet<PasswordResetToken> PasswordResetTokens { get; set; }
     public DbSet<EmailVerificationToken> EmailVerificationTokens { get; set; }
-
-
-    private static readonly ValueComparer<Dictionary<string, object>> DictionaryComparer =
-    new ValueComparer<Dictionary<string, object>>(
-        (d1, d2) => d1.SequenceEqual(d2),
-        d => d.Aggregate(0, (a, v) => HashCode.Combine(a, v.GetHashCode())),
-        d => d.ToDictionary(entry => entry.Key, entry => entry.Value));
-
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -55,37 +44,27 @@ public class ApplicationDbContext : DbContext
         // Apply all configurations
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
         
-
-
-        modelBuilder.Entity<Order>(entity =>
-        {
-            entity.Property(e => e.TotalAmount)
-                  .HasPrecision(18, 2); // 18 digits total, 2 after decimal point
-        });
-
-
+        // Configure SystemHealth.AdditionalInfo as JSON
         modelBuilder.Entity<SystemHealth>(entity =>
         {
             entity.Property(e => e.AdditionalInfo)
                 .HasConversion(
-                    v => JsonSerializer.Serialize(v, (JsonSerializerOptions?)null),
-                    v => JsonSerializer.Deserialize<Dictionary<string, object>>(v, (JsonSerializerOptions?)null) ?? new())
-                .HasColumnType("nvarchar(max)")
-                .Metadata.SetValueComparer(DictionaryComparer);
+                    v => JsonSerializer.Serialize(v, (JsonSerializerOptions)null),
+                    v => JsonSerializer.Deserialize<Dictionary<string, object>>(v, (JsonSerializerOptions)null) 
+                         ?? new Dictionary<string, object>())
+                .HasColumnType("nvarchar(max)");
         });
-
-
+        
+        // Configure UserActivity.AdditionalData as JSON
         modelBuilder.Entity<UserActivity>(entity =>
         {
             entity.Property(e => e.AdditionalData)
                 .HasConversion(
-                    v => JsonSerializer.Serialize(v, (JsonSerializerOptions?)null),
-                    v => JsonSerializer.Deserialize<Dictionary<string, object>>(v, (JsonSerializerOptions?)null) ?? new())
-                .HasColumnType("nvarchar(max)")
-                .Metadata.SetValueComparer(DictionaryComparer);
+                    v => JsonSerializer.Serialize(v, (JsonSerializerOptions)null),
+                    v => JsonSerializer.Deserialize<Dictionary<string, object>>(v, (JsonSerializerOptions)null) 
+                         ?? new Dictionary<string, object>())
+                .HasColumnType("nvarchar(max)");
         });
-
-
     }
 
     public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)

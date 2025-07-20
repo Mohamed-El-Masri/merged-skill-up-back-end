@@ -2,7 +2,7 @@ using SkillUpPlatform.Domain.Entities;
 
 namespace SkillUpPlatform.Application.Features.Users.DTOs;
 
-public class UserProfileDetailDto
+public class UserDto
 {
     public int Id { get; set; }
     public string FirstName { get; set; } = string.Empty;

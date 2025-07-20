@@ -1,5 +1,6 @@
 using MediatR;
 using SkillUpPlatform.Application.Common.Models;
+using SkillUpPlatform.Application.Features.Files.Queries;
 using SkillUpPlatform.Application.Features.Resources.DTOs;
 using SkillUpPlatform.Domain.Entities;
 

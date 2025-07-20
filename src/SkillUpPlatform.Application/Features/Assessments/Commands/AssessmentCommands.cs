@@ -40,7 +40,7 @@ public class SubmitAnswerDto
     public string Answer { get; set; } = string.Empty;
 }
 
-public class UpdateAssessmentCommand : IRequest<Result<DTOs.AssessmentDto>>
+public class UpdateAssessmentCommand : IRequest<Result<int>>
 {
     public int Id { get; set; }
     public string Title { get; set; } = string.Empty;
@@ -77,25 +77,9 @@ public class DeleteAssessmentCommand : IRequest<Result>
     public int Id { get; set; }
 }
 
-public class GetAssessmentResultsQuery : IRequest<Result<List<AssessmentResultDto>>>
-{
-    public int AssessmentId { get; set; }
-    public int? UserId { get; set; }
-}
-
 public class StartAssessmentCommand : IRequest<Result<int>>
 {
     public int AssessmentId { get; set; }
-    public int UserId { get; set; }
-}
-
-public class GetAssessmentQuestionsQuery : IRequest<Result<List<QuestionDto>>>
-{
-    public int AssessmentId { get; set; }
-}
-
-public class GetUserAssessmentsQuery : IRequest<Result<List<UserAssessmentDto>>>
-{
     public int UserId { get; set; }
 }
 
@@ -108,16 +92,4 @@ public class AssessmentResultDto
     public DateTime CompletedAt { get; set; }
     public bool IsPassed { get; set; }
     public string UserName { get; set; } = string.Empty;
-}
-
-public class UserAssessmentDto
-{
-    public int Id { get; set; }
-    public string Title { get; set; } = string.Empty;
-    public int? Score { get; set; }
-    public int MaxScore { get; set; }
-    public DateTime? CompletedAt { get; set; }
-    public bool IsCompleted { get; set; }
-    public bool IsPassed { get; set; }
-    public int AttemptsLeft { get; set; }
 }

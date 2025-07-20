@@ -1,9 +1,12 @@
 using SkillUpPlatform.Domain.Common;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SkillUpPlatform.Domain.Entities;
 
 public class FileUpload : BaseEntity
 {
+    [ForeignKey("User")]
+    public int UserId { get; set; }
     public string FileName { get; set; } = string.Empty;
     public string OriginalFileName { get; set; } = string.Empty;
     public string FilePath { get; set; } = string.Empty;
@@ -22,7 +25,7 @@ public class FileShare : BaseEntity
     public int FileUploadId { get; set; }
     public int SharedWithUserId { get; set; }
     public DateTime SharedAt { get; set; }
-    public int SharedByUserId { get; set; }
+    public int SharedBy { get; set; }
     public string? AccessLevel { get; set; } = "Read"; // Read, Write, Admin
     public virtual FileUpload FileUpload { get; set; } = null!;
     public virtual User SharedWithUser { get; set; } = null!;

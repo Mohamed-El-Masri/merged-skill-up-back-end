@@ -21,25 +21,6 @@ public class CreatorController : BaseController
     public CreatorController(IMediator mediator) : base(mediator)
     {
     }
-
-    /// <summary>
-    /// Login
-    /// </summary>
-  
-
-    [HttpPost("login")]
-    [AllowAnonymous]
-    [ProducesResponseType(typeof(Result), StatusCodes.Status401Unauthorized)]
-    public async Task<IActionResult> Login([FromBody] CreatorLoginCommand command)
-        {
-            var result = await _mediator.Send(command);
-            if (result.IsSuccess)
-                return Ok(result);
-
-            return Unauthorized(new { result.Error });
-        }
-    
-
     /// <summary>
     /// Get creator dashboard overview
     /// </summary>
@@ -91,7 +72,7 @@ public class CreatorController : BaseController
     [HttpPost("learning-paths")]
     [ProducesResponseType(typeof(Result<Common.Models.CreatorLearningPathDto>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(Result), StatusCodes.Status401Unauthorized)]
-    public async Task<IActionResult> CreateLearningPath([FromBody] SkillUpPlatform.Application.Features.ContentCreator.Commands.CreatorCreateLearningPathCommand command)
+    public async Task<IActionResult> CreateLearningPath([FromBody] SkillUpPlatform.Application.Features.LearningPaths.Commands.CreateLearningPathCommand command)
     {
         return HandleResult(await _mediator.Send(command));
     }
@@ -134,16 +115,7 @@ public class CreatorController : BaseController
     public async Task<IActionResult> DeleteLearningPath(int id)
     {
         var command = new DeleteLearningPathCommand { LearningPathId = id };
-        var result = await _mediator.Send(command);
-        if (!result.IsSuccess)
-        {
-            if (result.Error == "Learning path not found")
-                return NotFound(new { Message = result.Error });
-            if (result.Error == "You don't have permission to delete this learning path")
-                return Forbid();
-            return BadRequest(new { Message = result.Error });
-        }
-        return Ok(new { Message = "Learning path deleted successfully" });
+        return HandleResult(await _mediator.Send(command));
     }
 
     /// <summary>
@@ -272,7 +244,7 @@ public class CreatorController : BaseController
     [ProducesResponseType(typeof(Result), StatusCodes.Status404NotFound)]
     [ProducesResponseType(typeof(Result), StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(typeof(Result), StatusCodes.Status403Forbidden)]
-    public async Task<IActionResult> ProvideFeedback(int studentId, [FromBody] ProvideFeedbackCommand command)
+    public async Task<IActionResult> ProvideFeedback(Guid studentId, [FromBody] ProvideFeedbackCommand command)
     {
         command.StudentId = studentId;
         return HandleResult(await _mediator.Send(command));
@@ -324,25 +296,5 @@ public class CreatorController : BaseController
     {
         var query = new GetRevenueAnalyticsQuery { Period = period };
         return HandleResult(await _mediator.Send(query));
-    }
-
-    /// <summary>
-    /// Get a single learning path by ID
-    /// </summary>
-    /// <param name="id">Learning path ID</param>
-    /// <returns>Learning path details</returns>
-    /// <response code="200">Learning path found</response>
-    /// <response code="404">Learning path not found</response>
-    /// <response code="401">Unauthorized</response>
-    [HttpGet("learning-paths/{id}")]
-    [ProducesResponseType(typeof(Common.Models.CreatorLearningPathDto), StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status404NotFound)]
-    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
-    public async Task<IActionResult> GetLearningPathById(int id)
-    {
-        var result = await _mediator.Send(new GetCreatorLearningPathByIdQuery { Id = id });
-        if (!result.IsSuccess || result.Data == null)
-            return NotFound(new { Message = result.Error ?? "Learning path not found" });
-        return Ok(result.Data);
     }
 }

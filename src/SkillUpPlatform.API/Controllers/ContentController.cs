@@ -80,53 +80,52 @@ public class ContentController : BaseController
         return Ok(result);
     }
 
-    /// <summary>
-    /// Mark content as completed (Student only)
-    /// </summary>
-    [HttpPost("{id}/mark-completed")]
-    [Authorize(Roles = "Student")]
-    public async Task<IActionResult> MarkContentAsCompleted(int id, [FromBody] MarkContentAsCompletedCommand command)
-    {
-        command.ContentId = id;
-        command.UserId = GetCurrentUserId();
-        var result = await _mediator.Send(command);
-        return Ok(result);
-    }
+        /// <summary>
+        /// Mark content as completed (Student only)
+        /// </summary>
+        [HttpPost("{id}/complete")]
+        [Authorize(Roles = "Student")]
+        public async Task<IActionResult> CompleteContent(int id)
+        {
+            var command = new CompleteContentCommand { ContentId = id, UserId = GetCurrentUserId() };
+            var result = await _mediator.Send(command);
+            return Ok(result);
+        }
 
-    /// <summary>
-    /// Get content progress
-    /// </summary>
-    [HttpGet("{id}/progress")]
-    [Authorize(Roles = "Student")]
-    public async Task<IActionResult> GetContentProgress(int id)
-    {
-        var query = new GetContentProgressQuery { ContentId = id, UserId = GetCurrentUserId() };
-        var result = await _mediator.Send(query);
-        return Ok(result);
-    }
+        /// <summary>
+        /// Get content progress
+        /// </summary>
+        [HttpGet("{id}/progress")]
+        [Authorize(Roles = "Student")]
+        public async Task<IActionResult> GetContentProgress(int id)
+        {
+            var query = new GetContentProgressQuery { ContentId = id, UserId = GetCurrentUserId() };
+            var result = await _mediator.Send(query);
+            return Ok(result);
+        }
 
-    /// <summary>
-    /// Get next content in learning path (Student only)
-    /// </summary>
-    [HttpGet("{id}/next")]
-    [Authorize(Roles = "Student")]
-    public async Task<IActionResult> GetNextContent(int id, [FromQuery] int learningPathId)
-    {
-        var query = new SkillUpPlatform.Application.Features.Contentt.Queries.GetNextContentQuery { CurrentContentId = id, LearningPathId = learningPathId, UserId = GetCurrentUserId() };
-        var result = await _mediator.Send(query);
-        return Ok(result);
-    }
+        /// <summary>
+        /// Get next content in learning path
+        /// </summary>
+        [HttpGet("{id}/next")]
+        [Authorize(Roles = "Student")]
+        public async Task<IActionResult> GetNextContent(int id, [FromQuery] int learningPathId)
+        {
+            var query = new SkillUpPlatform.Application.Features.Contentt.Queries.GetNextContentQuery { CurrentContentId = id, LearningPathId = learningPathId, UserId = GetCurrentUserId() };
+            var result = await _mediator.Send(query);
+            return Ok(result);
+        }
 
-    /// <summary>
-    /// Get previous content in learning path (Student only)
-    /// </summary>
-    [HttpGet("{id}/previous")]
-    [Authorize(Roles = "Student")]
-    public async Task<IActionResult> GetPreviousContent(int id, [FromQuery] int learningPathId)
-    {
-        var query = new SkillUpPlatform.Application.Features.Contentt.Queries.GetPreviousContentQuery { CurrentContentId = id, LearningPathId = learningPathId, UserId = GetCurrentUserId() };
-        var result = await _mediator.Send(query);
-        return Ok(result);
-    }
+        /// <summary>
+        /// Get previous content in learning path
+        /// </summary>
+        [HttpGet("{id}/previous")]
+        [Authorize(Roles = "Student")]
+        public async Task<IActionResult> GetPreviousContent(int id, [FromQuery] int learningPathId)
+        {
+            var query = new SkillUpPlatform.Application.Features.Contentt.Queries.GetPreviousContentQuery { CurrentContentId = id, LearningPathId = learningPathId, UserId = GetCurrentUserId() };
+            var result = await _mediator.Send(query);
+            return Ok(result);
+        }
 
 }

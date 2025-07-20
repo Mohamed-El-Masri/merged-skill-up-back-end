@@ -4,6 +4,7 @@ using SkillUpPlatform.Application.Features.Assessments.Queries;
 using SkillUpPlatform.Application.Common.Constants;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace SkillUpPlatform.API.Controllers;
 

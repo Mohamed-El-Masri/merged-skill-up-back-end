@@ -12,17 +12,8 @@ public class UserSession : BaseEntity
     public string UserAgent { get; set; } = string.Empty;
     public bool IsActive { get; set; } = true;
     public virtual User User { get; set; } = null!;
-    public int DurationInSeconds
-    {
-        get
-        {
-            if (LogoutTime.HasValue)
-                return (int)(LogoutTime.Value - LoginTime).TotalSeconds;
-            else
-                return (int)(DateTime.UtcNow - LoginTime).TotalSeconds;
-        }
-    }
-
+    public DateTime ExpiresAt { get; set; } //Added
+    public string RefreshToken { get; set; } //Added
 }
 
 public class PasswordResetToken : BaseEntity

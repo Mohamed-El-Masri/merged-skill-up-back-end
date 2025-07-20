@@ -100,22 +100,6 @@ public class ResourcesController : BaseController
     }
 
     /// <summary>
-    /// Download resource file
-    /// </summary>
-    [HttpGet("{id}/download")]
-    [Authorize]
-    public async Task<IActionResult> DownloadResource(int id)
-    {
-        var query = new DownloadResourceQuery { ResourceId = id };
-        var result = await _mediator.Send(query);
-        if (result.IsSuccess && result.Data != null)
-        {
-            return File(result.Data.Content, result.Data.ContentType, result.Data.FileName);
-        }
-        return NotFound();
-    }
-
-    /// <summary>
     /// Delete resource (Content Creator only)
     /// </summary>
     [HttpDelete("{id}")]
@@ -125,5 +109,23 @@ public class ResourcesController : BaseController
         var command = new DeleteResourceCommand { Id = id };
         var result = await _mediator.Send(command);
         return Ok(result);
+    }
+
+    /// <summary>
+    /// Download resource file
+    /// </summary>
+    [HttpGet("{id}/download")]
+    [Authorize]
+    public async Task<IActionResult> DownloadResource(int id)
+    {
+        var query = new DownloadResourceQuery { ResourceId = id };
+        var result = await _mediator.Send(query);
+
+        if (result.IsSuccess && result.Data != null)
+        {
+            return File(result.Data.FileContent, result.Data.FileType, result.Data.FileName);
+        }
+
+        return NotFound();
     }
 }

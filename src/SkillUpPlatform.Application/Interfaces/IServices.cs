@@ -1,5 +1,3 @@
-using SkillUpPlatform.Application.Features.Admin.Commands;
-using SkillUpPlatform.Application.Features.Admin.Queries;
 using SkillUpPlatform.Application.Features.AI.Commands;
 using SkillUpPlatform.Domain.Entities;
 
@@ -70,20 +68,4 @@ public interface INotificationService
     Task<bool> MarkAsReadAsync(int notificationId, int userId);
     Task<bool> MarkAllAsReadAsync(int userId);
     Task<int> GetUnreadCountAsync(int userId);
-}
-
-public interface IStatisticsService
-{
-    Task<SystemStatisticsDto> GetStatisticsAsync();
-}
-
-public interface IPerformanceService
-{
-    Task<PerformanceMetricsDto> GetMetricsAsync(string period);
-}
-
-public interface ISystemConfigurationService
-{
-    Task UpdateConfigAsync(UpdateSystemConfigCommand config);
-    Task<SystemConfigDto> GetConfigAsync();
 }

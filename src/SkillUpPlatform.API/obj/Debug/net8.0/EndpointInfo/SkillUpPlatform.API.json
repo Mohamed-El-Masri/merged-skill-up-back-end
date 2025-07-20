@@ -1797,7 +1797,7 @@
         }
       }
     },
-    "/api/v1/Content/{id}/mark-completed": {
+    "/api/v1/Content/{id}/complete": {
       "post": {
         "tags": [
           "👨‍🎓 Student - Content Consumption"
@@ -1823,25 +1823,6 @@
             }
           }
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/MarkContentAsCompletedCommand"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/MarkContentAsCompletedCommand"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/MarkContentAsCompletedCommand"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "Success"
@@ -1887,7 +1868,7 @@
         "tags": [
           "👨‍🎓 Student - Content Consumption"
         ],
-        "summary": "Get next content in learning path (Student only)",
+        "summary": "Get next content in learning path",
         "parameters": [
           {
             "name": "id",
@@ -1929,7 +1910,7 @@
         "tags": [
           "👨‍🎓 Student - Content Consumption"
         ],
-        "summary": "Get previous content in learning path (Student only)",
+        "summary": "Get previous content in learning path",
         "parameters": [
           {
             "name": "id",
@@ -2539,6 +2520,10 @@
                   },
                   "category": {
                     "type": "string"
+                  },
+                  "isPublic": {
+                    "type": "boolean",
+                    "default": false
                   }
                 }
               },
@@ -2565,6 +2550,9 @@
                   "style": "form"
                 },
                 "category": {
+                  "style": "form"
+                },
+                "isPublic": {
                   "style": "form"
                 }
               }
@@ -3731,48 +3719,6 @@
             }
           }
         ],
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      }
-    },
-    "/api/v1/LearningPaths/recommend": {
-      "post": {
-        "tags": [
-          "👨‍🎓 Student - Learning Paths"
-        ],
-        "summary": "Recommend learning paths for the current user",
-        "parameters": [
-          {
-            "name": "api-version",
-            "in": "query",
-            "style": "form",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/RecommendLearningPathCommand"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/RecommendLearningPathCommand"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/RecommendLearningPathCommand"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "Success"
@@ -4956,65 +4902,6 @@
         }
       }
     },
-    "/api/creator/login": {
-      "post": {
-        "tags": [
-          "👨‍🏫 Content Creator - Management"
-        ],
-        "summary": "Login",
-        "parameters": [
-          {
-            "name": "api-version",
-            "in": "query",
-            "style": "form",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreatorLoginCommand"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreatorLoginCommand"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreatorLoginCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Result"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Result"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Result"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/api/creator/dashboard": {
       "get": {
         "tags": [
@@ -5185,17 +5072,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreatorCreateLearningPathCommand"
+                "$ref": "#/components/schemas/CreateLearningPathCommand"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreatorCreateLearningPathCommand"
+                "$ref": "#/components/schemas/CreateLearningPathCommand"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreatorCreateLearningPathCommand"
+                "$ref": "#/components/schemas/CreateLearningPathCommand"
               }
             }
           }
@@ -5477,95 +5364,6 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Result"
-                }
-              }
-            }
-          }
-        }
-      },
-      "get": {
-        "tags": [
-          "👨‍🏫 Content Creator - Management"
-        ],
-        "summary": "Get a single learning path by ID",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "description": "Learning path ID",
-            "required": true,
-            "style": "simple",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "api-version",
-            "in": "query",
-            "style": "form",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Learning path found",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/CreatorLearningPathDto"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CreatorLearningPathDto"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CreatorLearningPathDto"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Learning path not found",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
                 }
               }
             }
@@ -6133,8 +5931,8 @@
             "required": true,
             "style": "simple",
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string",
+              "format": "uuid"
             }
           },
           {
@@ -6941,17 +6739,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/StringResult"
+                  "$ref": "#/components/schemas/Result"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StringResult"
+                  "$ref": "#/components/schemas/Result"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StringResult"
+                  "$ref": "#/components/schemas/Result"
                 }
               }
             }
@@ -7313,7 +7111,7 @@
     "/api/admin/users": {
       "get": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Get all users",
         "parameters": [
@@ -7422,7 +7220,7 @@
     "/api/admin/users/{id}": {
       "get": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Get user details",
         "parameters": [
@@ -7511,7 +7309,7 @@
       },
       "put": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Update user",
         "parameters": [
@@ -7620,7 +7418,7 @@
       },
       "delete": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Delete user",
         "parameters": [
@@ -7711,7 +7509,7 @@
     "/api/admin/users/{id}/suspend": {
       "post": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Suspend user",
         "parameters": [
@@ -7822,7 +7620,7 @@
     "/api/admin/users/{id}/activate": {
       "post": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Activate user",
         "parameters": [
@@ -7913,7 +7711,7 @@
     "/api/admin/users/{id}/role": {
       "put": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Update user role",
         "parameters": [
@@ -8024,7 +7822,7 @@
     "/api/admin/users/{id}/analytics": {
       "get": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Get user analytics",
         "parameters": [
@@ -8115,7 +7913,7 @@
     "/api/admin/users/{id}/activity": {
       "get": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Get user activity log",
         "parameters": [
@@ -8228,7 +8026,7 @@
     "/api/admin/users/{id}/reset-password": {
       "post": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Reset user password",
         "parameters": [
@@ -8339,7 +8137,7 @@
     "/api/admin/users/analytics": {
       "get": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Get users analytics summary",
         "parameters": [
@@ -8399,7 +8197,7 @@
     "/api/admin/users/{id}/message": {
       "post": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Send message to user",
         "parameters": [
@@ -8510,7 +8308,7 @@
     "/api/admin/users/export": {
       "get": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Export users data",
         "parameters": [
@@ -8583,7 +8381,7 @@
     "/api/Progress/content/{contentId}/start": {
       "post": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Mark content as started",
         "parameters": [
@@ -8674,7 +8472,7 @@
     "/api/Progress/content/{contentId}/progress": {
       "post": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Update content progress",
         "parameters": [
@@ -8785,7 +8583,7 @@
     "/api/Progress/content/{contentId}/complete": {
       "post": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Mark content as completed",
         "parameters": [
@@ -8876,7 +8674,7 @@
     "/api/Progress/overall": {
       "get": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Get user's overall progress",
         "parameters": [
@@ -8936,7 +8734,7 @@
     "/api/Progress/learning-path/{learningPathId}": {
       "get": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Get learning path progress",
         "parameters": [
@@ -9027,7 +8825,7 @@
     "/api/Progress/content/{contentId}": {
       "get": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Get content progress details",
         "parameters": [
@@ -9118,7 +8916,7 @@
     "/api/Progress/statistics": {
       "get": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Get progress statistics",
         "parameters": [
@@ -9188,7 +8986,7 @@
     "/api/Progress/streaks": {
       "get": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Get learning streaks",
         "parameters": [
@@ -9248,7 +9046,7 @@
     "/api/Progress/goals": {
       "post": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Set learning goals",
         "parameters": [
@@ -9326,7 +9124,7 @@
       },
       "get": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Get learning goals",
         "parameters": [
@@ -9386,7 +9184,7 @@
     "/api/Progress/content/{contentId}/time": {
       "post": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Track time spent on content",
         "parameters": [
@@ -9497,7 +9295,7 @@
     "/api/Progress/time-analytics": {
       "get": {
         "tags": [
-          "🔧 General"
+          "� General"
         ],
         "summary": "Get time spent analytics",
         "parameters": [
@@ -10076,29 +9874,23 @@
             "type": "integer",
             "format": "int32"
           },
-          "userId": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
           "action": {
             "type": "string",
             "nullable": true
           },
-          "entityType": {
+          "userName": {
             "type": "string",
             "nullable": true
           },
-          "entityId": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "oldValues": {
+          "userEmail": {
             "type": "string",
             "nullable": true
           },
-          "newValues": {
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "details": {
             "type": "string",
             "nullable": true
           },
@@ -10109,10 +9901,6 @@
           "userAgent": {
             "type": "string",
             "nullable": true
-          },
-          "timestamp": {
-            "type": "string",
-            "format": "date-time"
           }
         },
         "additionalProperties": false
@@ -10735,8 +10523,8 @@
         "type": "object",
         "properties": {
           "id": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "format": "uuid"
           },
           "assessmentTitle": {
             "type": "string",
@@ -10786,89 +10574,6 @@
           "completionRate": {
             "type": "number",
             "format": "double"
-          }
-        },
-        "additionalProperties": false
-      },
-      "CreatorContentProgressDto": {
-        "type": "object",
-        "properties": {
-          "contentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "contentTitle": {
-            "type": "string",
-            "nullable": true
-          },
-          "progressPercentage": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "isCompleted": {
-            "type": "boolean"
-          },
-          "timeSpentMinutes": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "lastAccessed": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "CreatorCreateLearningPathCommand": {
-        "type": "object",
-        "properties": {
-          "title": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "category": {
-            "type": "string",
-            "nullable": true
-          },
-          "difficultyLevel": {
-            "$ref": "#/components/schemas/DifficultyLevel"
-          },
-          "estimatedDuration": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "price": {
-            "type": "number",
-            "format": "double"
-          },
-          "isPublished": {
-            "type": "boolean"
-          },
-          "tags": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
-          },
-          "prerequisites": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
-          },
-          "learningObjectives": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -10994,60 +10699,6 @@
             "type": "string",
             "format": "date-time",
             "nullable": true
-          },
-          "estimatedDurationHours": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "difficultyLevel": {
-            "$ref": "#/components/schemas/DifficultyLevel"
-          },
-          "prerequisites": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
-          },
-          "learningObjectives": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
-          },
-          "category": {
-            "type": "string",
-            "nullable": true
-          },
-          "isActive": {
-            "type": "boolean"
-          },
-          "isPublished": {
-            "type": "boolean"
-          },
-          "displayOrder": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "estimatedDuration": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "tags": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
-          },
-          "enrollmentCount": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "reviewCount": {
-            "type": "number",
-            "format": "double"
           }
         },
         "additionalProperties": false
@@ -11136,32 +10787,14 @@
         },
         "additionalProperties": false
       },
-      "CreatorLoginCommand": {
-        "type": "object",
-        "properties": {
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
-          "password": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "CreatorStudentDto": {
         "type": "object",
         "properties": {
           "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "firstName": {
             "type": "string",
-            "nullable": true
+            "format": "uuid"
           },
-          "lastName": {
+          "name": {
             "type": "string",
             "nullable": true
           },
@@ -11169,21 +10802,26 @@
             "type": "string",
             "nullable": true
           },
-          "enrolledAt": {
+          "learningPathTitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "enrollmentDate": {
             "type": "string",
             "format": "date-time"
+          },
+          "progressPercentage": {
+            "type": "integer",
+            "format": "int32"
           },
           "lastAccessed": {
             "type": "string",
             "format": "date-time",
             "nullable": true
           },
-          "progressPercentage": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "isActive": {
-            "type": "boolean"
+          "status": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -11809,8 +11447,8 @@
         "type": "object",
         "properties": {
           "id": {
-            "type": "string",
-            "format": "uuid"
+            "type": "integer",
+            "format": "int32"
           },
           "fileName": {
             "type": "string",
@@ -11928,12 +11566,12 @@
         "type": "object",
         "properties": {
           "id": {
-            "type": "string",
-            "format": "uuid"
+            "type": "integer",
+            "format": "int32"
           },
           "fileId": {
-            "type": "string",
-            "format": "uuid"
+            "type": "integer",
+            "format": "int32"
           },
           "fileName": {
             "type": "string",
@@ -12028,8 +11666,8 @@
             "format": "date-time"
           },
           "uploadedBy": {
-            "type": "string",
-            "nullable": true
+            "type": "integer",
+            "format": "int32"
           },
           "sharedWith": {
             "type": "array",
@@ -12135,16 +11773,6 @@
           }
         },
         "additionalProperties": false
-      },
-      "HealthStatus": {
-        "enum": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "type": "integer",
-        "format": "int32"
       },
       "Int32Result": {
         "type": "object",
@@ -12306,8 +11934,8 @@
         "type": "object",
         "properties": {
           "id": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "format": "uuid"
           },
           "title": {
             "type": "string",
@@ -12553,6 +12181,21 @@
             "format": "date-time",
             "nullable": true
           },
+          "startDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "days": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isActive": {
+            "type": "boolean"
+          },
           "learningDates": {
             "type": "array",
             "items": {
@@ -12600,24 +12243,6 @@
           },
           "rememberMe": {
             "type": "boolean"
-          }
-        },
-        "additionalProperties": false
-      },
-      "MarkContentAsCompletedCommand": {
-        "type": "object",
-        "properties": {
-          "userId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "contentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "timeSpentMinutes": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -13090,8 +12715,8 @@
         "type": "object",
         "properties": {
           "id": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "format": "uuid"
           },
           "title": {
             "type": "string",
@@ -13111,33 +12736,6 @@
           }
         },
         "additionalProperties": false
-      },
-      "ProblemDetails": {
-        "type": "object",
-        "properties": {
-          "type": {
-            "type": "string",
-            "nullable": true
-          },
-          "title": {
-            "type": "string",
-            "nullable": true
-          },
-          "status": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "detail": {
-            "type": "string",
-            "nullable": true
-          },
-          "instance": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": { }
       },
       "ProgressCommandsLearningGoalDto": {
         "type": "object",
@@ -13221,12 +12819,12 @@
         "type": "object",
         "properties": {
           "studentId": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "format": "uuid"
           },
           "learningPathId": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "format": "uuid"
           },
           "feedbackText": {
             "type": "string",
@@ -13271,6 +12869,10 @@
             "type": "string",
             "nullable": true
           },
+          "correctAnswer": {
+            "type": "string",
+            "nullable": true
+          },
           "points": {
             "type": "integer",
             "format": "int32"
@@ -13310,8 +12912,8 @@
         "type": "object",
         "properties": {
           "id": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "format": "uuid"
           },
           "studentName": {
             "type": "string",
@@ -13358,34 +12960,6 @@
             "nullable": true
           },
           "experience": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "RecommendLearningPathCommand": {
-        "type": "object",
-        "properties": {
-          "userId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "skills": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
-          },
-          "interests": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
-          },
-          "careerGoal": {
             "type": "string",
             "nullable": true
           }
@@ -13627,8 +13201,8 @@
         "type": "object",
         "properties": {
           "id": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "format": "uuid"
           },
           "studentName": {
             "type": "string",
@@ -13764,44 +13338,20 @@
         },
         "additionalProperties": false
       },
-      "StringResult": {
-        "type": "object",
-        "properties": {
-          "isSuccess": {
-            "type": "boolean"
-          },
-          "data": {
-            "type": "string",
-            "nullable": true
-          },
-          "error": {
-            "type": "string",
-            "nullable": true
-          },
-          "errors": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "StudentProgressDto": {
         "type": "object",
         "properties": {
           "studentId": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "format": "uuid"
           },
           "studentName": {
             "type": "string",
             "nullable": true
           },
           "learningPathId": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "format": "uuid"
           },
           "learningPathTitle": {
             "type": "string",
@@ -13826,7 +13376,7 @@
           "contentProgress": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/CreatorContentProgressDto"
+              "$ref": "#/components/schemas/ContentProgressDto"
             },
             "nullable": true
           },
@@ -14031,7 +13581,8 @@
         "type": "object",
         "properties": {
           "status": {
-            "$ref": "#/components/schemas/HealthStatus"
+            "type": "string",
+            "nullable": true
           },
           "lastChecked": {
             "type": "string",
@@ -14398,6 +13949,10 @@
       "UpdateFileCommand": {
         "type": "object",
         "properties": {
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "fileId": {
             "type": "integer",
             "format": "int32"
@@ -14569,6 +14124,10 @@
       "UpdateUserPreferencesCommand": {
         "type": "object",
         "properties": {
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "language": {
             "type": "string",
             "nullable": true
@@ -14951,10 +14510,6 @@
           "status": {
             "type": "string",
             "nullable": true
-          },
-          "imageUrl": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -15019,6 +14574,10 @@
         "type": "object",
         "properties": {
           "totalUsers": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "activeUsers": {
             "type": "integer",
             "format": "int32"
           },

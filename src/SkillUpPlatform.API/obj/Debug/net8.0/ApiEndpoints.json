@@ -169,7 +169,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "SkillUpPlatform.Application.Common.Models.Result\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "SkillUpPlatform.Application.Common.Models.Result",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1835,7 +1835,7 @@
     "Parameters": [
       {
         "Name": "command",
-        "Type": "SkillUpPlatform.Application.Features.ContentCreator.Commands.CreatorCreateLearningPathCommand",
+        "Type": "SkillUpPlatform.Application.Features.LearningPaths.Commands.CreateLearningPathCommand",
         "IsRequired": true
       },
       {
@@ -1989,58 +1989,6 @@
           "text/json"
         ],
         "StatusCode": 403
-      }
-    ],
-    "Tags": [
-      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
-    ]
-  },
-  {
-    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
-    "Method": "GetLearningPathById",
-    "RelativePath": "api/creator/learning-paths/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "api-version",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "SkillUpPlatform.Application.Common.Models.CreatorLearningPathDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 404
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 401
       }
     ],
     "Tags": [
@@ -2232,40 +2180,6 @@
   },
   {
     "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
-    "Method": "Login",
-    "RelativePath": "api/creator/login",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "SkillUpPlatform.Application.Features.ContentCreator.Commands.CreatorLoginCommand",
-        "IsRequired": true
-      },
-      {
-        "Name": "api-version",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "SkillUpPlatform.Application.Common.Models.Result",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 401
-      }
-    ],
-    "Tags": [
-      "\uD83D\uDC68\u200D\uD83C\uDFEB Content Creator - Management"
-    ]
-  },
-  {
-    "ContainingType": "SkillUpPlatform.API.Controllers.CreatorController",
     "Method": "GetRevenueAnalytics",
     "RelativePath": "api/creator/revenue",
     "HttpMethod": "GET",
@@ -2370,7 +2284,7 @@
     "Parameters": [
       {
         "Name": "studentId",
-        "Type": "System.Int32",
+        "Type": "System.Guid",
         "IsRequired": true
       },
       {
@@ -3268,6 +3182,11 @@
       {
         "Name": "category",
         "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "isPublic",
+        "Type": "System.Boolean",
         "IsRequired": false
       },
       {
@@ -4856,8 +4775,8 @@
   },
   {
     "ContainingType": "SkillUpPlatform.API.Controllers.ContentController",
-    "Method": "MarkContentAsCompleted",
-    "RelativePath": "api/v1/Content/{id}/mark-completed",
+    "Method": "CompleteContent",
+    "RelativePath": "api/v1/Content/{id}/complete",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -4865,11 +4784,6 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "command",
-        "Type": "SkillUpPlatform.Application.Features.Contentt.Commands.MarkContentAsCompletedCommand",
         "IsRequired": true
       },
       {
@@ -5097,27 +5011,6 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [
-      {
-        "Name": "api-version",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SkillUpPlatform.API.Controllers.LearningPathsController",
-    "Method": "RecommendLearningPaths",
-    "RelativePath": "api/v1/LearningPaths/recommend",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "SkillUpPlatform.Application.Features.LearningPaths.Commands.RecommendLearningPathCommand",
-        "IsRequired": true
-      },
       {
         "Name": "api-version",
         "Type": "System.String",
@@ -5384,7 +5277,7 @@
     "Parameters": [
       {
         "Name": "command",
-        "Type": "SkillUpPlatform.Application.Features.Auth.Commands.UpdateUserPreferencesCommand",
+        "Type": "SkillUpPlatform.Application.Features.Users.Commands.UpdateUserPreferencesCommand",
         "IsRequired": true
       },
       {

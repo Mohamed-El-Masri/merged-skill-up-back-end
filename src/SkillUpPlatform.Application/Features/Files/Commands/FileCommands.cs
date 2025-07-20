@@ -23,7 +23,7 @@ public class DeleteFileCommand : IRequest<Result<bool>>
     public int UserId { get; set; }
 }
 
-public class ShareFileCommand : IRequest<Result<bool>>
+public class ShareFileCommand : IRequest<Result<FileShareDto>>
 {
     public int FileId { get; set; }
     public int SharedWithUserId { get; set; }
@@ -33,6 +33,7 @@ public class ShareFileCommand : IRequest<Result<bool>>
 
 public class UpdateFileCommand : IRequest<Result<FileInfoDto>>
 {
+    public int UserId { get; set; }
     public int FileId { get; set; }
     public string FileName { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
@@ -51,14 +52,14 @@ public class FileUploadDto
     public bool IsPublic { get; set; }
     public string? Description { get; set; }
     public DateTime UploadedAt { get; set; }
-    public string UploadedBy { get; set; } = string.Empty;
+    public int UploadedBy { get; set; } = default;
     public List<FileShareDto> SharedWith { get; set; } = new();
 }
 
 public class FileShareDto
 {
-    public Guid Id { get; set; }
-    public Guid FileId { get; set; }
+    public int Id { get; set; }
+    public int FileId { get; set; }
     public string FileName { get; set; } = string.Empty;
     public List<string> SharedWithUsers { get; set; } = new();
     public string Permission { get; set; } = string.Empty;

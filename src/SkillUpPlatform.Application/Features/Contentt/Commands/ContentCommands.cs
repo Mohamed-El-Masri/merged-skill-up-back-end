@@ -5,7 +5,7 @@ using SkillUpPlatform.Domain.Entities;
 
 namespace SkillUpPlatform.Application.Features.Contentt.Commands;
 
-public class CreateContentCommand : IRequest<Result<int>>
+public class CreateContentCommand : IRequest<Result<ContentDetailDto>>
 {
     public string Title { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
@@ -42,24 +42,4 @@ public class MarkContentAsCompletedCommand : IRequest<Result<bool>>
 public class DeleteContentCommand : IRequest<Result>
 {
     public int Id { get; set; }
-}
-
-
-
-public class GetContentProgressQuery : IRequest<Result<ContentProgressDto>>
-{
-    public int ContentId { get; set; }
-    public int UserId { get; set; }
-}
-
-public class GetNextContentQuery : IRequest<Result<ContentDto>>
-{
-    public int LearningPathId { get; set; }
-    public int UserId { get; set; }
-}
-
-public class GetPreviousContentQuery : IRequest<Result<ContentDto>>
-{
-    public int LearningPathId { get; set; }
-    public int UserId { get; set; }
 }

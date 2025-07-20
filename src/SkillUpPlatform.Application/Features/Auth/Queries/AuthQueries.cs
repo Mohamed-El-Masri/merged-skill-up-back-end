@@ -3,7 +3,7 @@ using SkillUpPlatform.Application.Common.Models;
 
 namespace SkillUpPlatform.Application.Features.Auth.Queries;
 
-public class GetUserSessionsQuery : IRequest<Result<List<AuthUserSessionDto>>>
+public class GetUserSessionsQuery : IRequest<Result<List<UserSessionDto>>>
 {
     public int UserId { get; set; }
 }
@@ -18,7 +18,7 @@ public class GetPasswordResetTokenQuery : IRequest<Result<bool>>
     public string Token { get; set; } = string.Empty;
 }
 
-public class AuthUserSessionDto
+public class UserSessionDto
 {
     public int Id { get; set; }
     public string SessionId { get; set; } = string.Empty;

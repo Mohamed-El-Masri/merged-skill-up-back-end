@@ -108,11 +108,6 @@ public class AdminController : BaseController
         [FromQuery] DateTime? startDate = null,
         [FromQuery] DateTime? endDate = null)
     {
-        // Validate pagination parameters
-        if (page < 1) page = 1;
-        if (pageSize < 1) pageSize = 20;
-        if (pageSize > 100) pageSize = 100; // Limit max page size
-
         var query = new GetAuditLogsQuery
         {
             Page = page,
@@ -148,7 +143,7 @@ public class AdminController : BaseController
     /// <response code="200">Configuration updated successfully</response>
     /// <response code="401">Unauthorized</response>
     [HttpPut("config")]
-    [ProducesResponseType(typeof(Result<string>), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(Result), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(Result), StatusCodes.Status401Unauthorized)]
     public async Task<IActionResult> UpdateSystemConfig([FromBody] UpdateSystemConfigCommand command)
     {
@@ -192,11 +187,6 @@ public class AdminController : BaseController
         [FromQuery] DateTime? startDate = null,
         [FromQuery] DateTime? endDate = null)
     {
-        // Validate pagination parameters
-        if (page < 1) page = 1;
-        if (pageSize < 1) pageSize = 20;
-        if (pageSize > 100) pageSize = 100; // Limit max page size
-
         var query = new GetErrorLogsQuery
         {
             Page = page,

@@ -1,6 +1,8 @@
-using Microsoft.AspNetCore.Mvc;
 using MediatR;
+using Microsoft.AspNetCore.Mvc;
 using SkillUpPlatform.Application.Common.Models;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 
 namespace SkillUpPlatform.API.Controllers;
 

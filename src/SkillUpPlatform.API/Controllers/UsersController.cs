@@ -73,6 +73,7 @@ public class UsersController : BaseController
     [Authorize]
     public async Task<IActionResult> UpdatePreferences([FromBody] UpdateUserPreferencesCommand command)
     {
+        command.UserId = GetUserIdFromContext();
         var result = await _mediator.Send(command);
         
         if (!result.IsSuccess)

@@ -1,42 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj": {}
+    "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj": {
+    "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj",
+        "projectUniqueName": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj",
         "projectName": "SkillUpPlatform.Application",
-        "projectPath": "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj",
-        "packagesPath": "C:\\Users\\aa\\.nuget\\packages\\",
-        "outputPath": "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Application\\obj\\",
+        "projectPath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj",
+        "packagesPath": "C:\\Users\\Rama2\\.nuget\\packages\\",
+        "outputPath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rama2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj": {
-                "projectPath": "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj"
+              "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj": {
+                "projectPath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj"
               }
             }
           }
@@ -85,17 +82,13 @@
               "target": "Package",
               "version": "[2.2.2, )"
             },
-            "Microsoft.Extensions.Configuration": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"
-            },
-            "Microsoft.Extensions.Identity.Core": {
-              "target": "Package",
-              "version": "[7.0.0, )"
             },
             "System.Text.Json": {
               "target": "Package",
@@ -122,31 +115,28 @@
         }
       }
     },
-    "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj": {
+    "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
+        "projectUniqueName": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
         "projectName": "SkillUpPlatform.Domain",
-        "projectPath": "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
-        "packagesPath": "C:\\Users\\aa\\.nuget\\packages\\",
-        "outputPath": "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Domain\\obj\\",
+        "projectPath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
+        "packagesPath": "C:\\Users\\Rama2\\.nuget\\packages\\",
+        "outputPath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rama2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -190,42 +180,39 @@
         }
       }
     },
-    "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj": {
+    "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj",
+        "projectUniqueName": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj",
         "projectName": "SkillUpPlatform.Infrastructure",
-        "projectPath": "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\aa\\.nuget\\packages\\",
-        "outputPath": "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Infrastructure\\obj\\",
+        "projectPath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Rama2\\.nuget\\packages\\",
+        "outputPath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rama2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj": {
-                "projectPath": "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj"
+              "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj": {
+                "projectPath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj"
               },
-              "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj": {
-                "projectPath": "D:\\PWD ITI\\Finally Graduation Project\\UpdatedBackend\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj"
+              "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj": {
+                "projectPath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj"
               }
             }
           }
@@ -249,6 +236,10 @@
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.27.6, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",

@@ -10,8 +10,6 @@ public class UserProgress : BaseEntity
     public DateTime? CompletedAt { get; set; }
     public int TimeSpentMinutes { get; set; }
     public int ProgressPercentage { get; set; } = 0;
-    public DateTime LastAccessed { get; set; } = DateTime.MinValue;
-
 
     // Navigation Properties
     public virtual User User { get; set; } = null!;

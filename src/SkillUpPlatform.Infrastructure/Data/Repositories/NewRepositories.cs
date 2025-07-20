@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using SkillUpPlatform.Domain.Entities;
 using SkillUpPlatform.Domain.Interfaces;
 using SkillUpPlatform.Infrastructure.Data;
+using System.Linq.Expressions;
+using FileShare = SkillUpPlatform.Domain.Entities.FileShare;
 
 namespace SkillUpPlatform.Infrastructure.Data.Repositories;
 
@@ -69,57 +71,6 @@ public class NotificationRepository : GenericRepository<Notification>, INotifica
     {
         return await _dbSet
             .CountAsync(n => n.UserId == userId && !n.IsRead);
-    }
-}
-
-public class OrderRepository : GenericRepository<Order>, IOrderRepository
-{
-    private readonly ApplicationDbContext _context;
-
-    public OrderRepository(ApplicationDbContext context) : base(context)
-    {
-        _context = context;
-    }
-
-    public async Task<int> GetTotalOrdersAsync()
-    {
-        return await _context.Orders.CountAsync();
-    }
-
-    public async Task<int> GetOrdersCountInPeriodAsync(string period)
-    {
-        DateTime since = period switch
-        {
-            "day" => DateTime.UtcNow.AddDays(-1),
-            "week" => DateTime.UtcNow.AddDays(-7),
-            "month" => DateTime.UtcNow.AddMonths(-1),
-            _ => DateTime.UtcNow.AddDays(-30),
-        };
-
-        return await _context.Orders
-            .Where(o => o.CreatedAt >= since)
-            .CountAsync();
-    }
-
-    public async Task<decimal> GetTotalRevenueAsync()
-    {
-        return await _context.Orders.SumAsync(o => o.TotalAmount);
-    }
-
-    public async Task<decimal> GetMonthlyRevenueAsync(DateTime since)
-    {
-        return await _context.Orders
-            .Where(o => o.CreatedAt >= since)
-            .SumAsync(o => o.TotalAmount);
-    }
-
-    public async Task<decimal> GetAverageOrderValueAsync()
-    {
-        var totalOrders = await _context.Orders.CountAsync();
-        if (totalOrders == 0) return 0;
-
-        var totalRevenue = await _context.Orders.SumAsync(o => o.TotalAmount);
-        return totalRevenue / totalOrders;
     }
 }
 
@@ -304,4 +255,12 @@ public class UserSessionRepository : GenericRepository<UserSession>, IUserSessio
             .Where(us => us.SessionId == sessionId)
             .FirstOrDefaultAsync();
     }
+}
+
+public class FileShareRepository : GenericRepository<FileShare>, IFileShareRepository
+{
+    public FileShareRepository(ApplicationDbContext context) : base(context)
+    {
+    }
+
 }

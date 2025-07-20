@@ -1,32 +1,28 @@
-using Microsoft.AspNetCore.Mvc.ApiExplorer;
-using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
-using SkillUpPlatform.API.Extensions;
-using SkillUpPlatform.API.Middleware;
 using SkillUpPlatform.Application;
 using SkillUpPlatform.Infrastructure;
-using SkillUpPlatform.Infrastructure.Data;
-using SkillUpPlatform.Infrastructure.Persistence;
+using SkillUpPlatform.API.Middleware;
+using SkillUpPlatform.API.Extensions;
+using Microsoft.OpenApi.Models;
 using System.Reflection;
-using System.Text;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add controllers
+// Add services to the container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
-// 🔐 Add Swagger with JWT support
+// Add Swagger with JWT support and role-based categorization
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo
-    {
-        Title = "SkillUp Platform API",
+    c.SwaggerDoc("v1", new OpenApiInfo 
+    { 
+        Title = "SkillUp Platform API", 
         Version = "v1",
         Description = "Smart Career Training Platform for Students and Graduates - Role-Based Endpoints"
     });
-
-    // JWT Bearer setup for Swagger
+    
+    // Add JWT Authentication to Swagger
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
@@ -51,7 +47,7 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 
-    // Tags for swagger
+    // Configure role-based tags for better organization (simplified)
     c.TagActionsBy(api =>
     {
         try
@@ -63,10 +59,10 @@ builder.Services.AddSwaggerGen(c =>
             return new[] { "General" };
         }
     });
-
+    
     c.DocInclusionPredicate((name, api) => true);
-
-    // XML Comments if available
+    
+    // Add XML comments for better documentation (if available)
     try
     {
         var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
@@ -78,16 +74,20 @@ builder.Services.AddSwaggerGen(c =>
     }
     catch (Exception ex)
     {
+        // Log warning but continue without XML documentation
         Console.WriteLine($"Warning: Could not load XML documentation: {ex.Message}");
     }
 });
 
+// Helper method to determine Swagger tag based on endpoint
 string GetSwaggerTag(ApiDescription api)
 {
     try
     {
         var controllerName = api.ActionDescriptor.RouteValues["controller"];
-        return controllerName?.ToLower() switch
+        if (controllerName == null) return "🔧 General";
+        
+        return controllerName.ToLower() switch
         {
             "users" or "auth" => "👨‍🎓 Student - Authentication & Profile",
             "learningpaths" => "👨‍🎓 Student - Learning Paths",
@@ -100,7 +100,7 @@ string GetSwaggerTag(ApiDescription api)
             "files" => "👨‍🎓 Student - File Management",
             "creator" => "👨‍🏫 Content Creator - Management",
             "admin" => "👨‍💼 Admin - System Management",
-            _ => "🔧 General"
+            _ => "� General"
         };
     }
     catch
@@ -109,50 +109,55 @@ string GetSwaggerTag(ApiDescription api)
     }
 }
 
-// 📦 Add core services
+// Add application services
 builder.Services.AddApplicationServices();
 builder.Services.AddInfrastructureServices(builder.Configuration);
+
+// Add API specific services
 builder.Services.AddApiServices(builder.Configuration);
-
-
-builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-// 🚀 Swagger UI
+// Configure the HTTP request pipeline
+// Enable Swagger in all environments (Development, Production, etc.)
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "SkillUp Platform API V1");
-    c.RoutePrefix = "swagger";
+    c.RoutePrefix = "swagger"; // Set Swagger UI at /swagger
     c.DocumentTitle = "SkillUp Platform API Documentation";
     c.DisplayRequestDuration();
 });
 
-// 🔒 HTTPS & CORS
 app.UseHttpsRedirection();
+
+// Add CORS
 app.UseCors("AllowAll");
 
-// 🛡️ Global Exception Middleware
-app.UseMiddleware<ExceptionMiddleware>();
+// Add custom middleware
+try
+{
+    app.UseMiddleware<ExceptionMiddleware>();
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Warning: Error setting up ExceptionMiddleware: {ex.Message}");
+}
 
-// 🔐 Auth
+// Add authentication and authorization
 app.UseAuthentication();
 app.UseAuthorization();
 
-// 👤 User Context Middleware
-app.UseMiddleware<UserContextMiddleware>();
-
-// 🌐 Map Controllers
-app.MapControllers();
-
-// 🌱 Seed DB
-using (var scope = app.Services.CreateScope())
+// Add user context middleware after authentication
+try
 {
-    var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    await DbSeeder.SeedAsync(context);
+    app.UseUserContext();
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Warning: Error setting up UserContext: {ex.Message}");
 }
 
-
+app.MapControllers();
 
 app.Run();

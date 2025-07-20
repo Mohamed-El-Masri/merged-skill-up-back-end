@@ -100,16 +100,4 @@ public class LearningPathsController : BaseController
         var result = await _mediator.Send(query);
         return Ok(result);
     }
-
-    /// <summary>
-    /// Recommend learning paths for the current user
-    /// </summary>
-    [HttpPost("recommend")]
-    [Authorize(Roles = "Student")]
-    public async Task<IActionResult> RecommendLearningPaths([FromBody] RecommendLearningPathCommand command)
-    {
-        command.UserId = GetCurrentUserId();
-        var result = await _mediator.Send(command);
-        return Ok(result);
-    }
 }

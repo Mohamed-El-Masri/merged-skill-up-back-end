@@ -16,7 +16,6 @@ public class User : BaseEntity
     public UserRole Role { get; set; } = UserRole.Student;
     public bool IsEmailVerified { get; set; }
     public DateTime? LastLoginAt { get; set; }
-    public bool IsActive { get; set; }
 
     // Navigation Properties
     public virtual ICollection<UserLearningPath> UserLearningPaths { get; set; } = new List<UserLearningPath>();

@@ -77,19 +77,19 @@ e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Application\obj\D
 e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\refint\SkillUpPlatform.Application.dll
 e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.pdb
 e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Application\obj\Debug\net8.0\ref\SkillUpPlatform.Application.dll
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.deps.json
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.dll
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.pdb
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.csproj.AssemblyReference.cache
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.GeneratedMSBuildEditorConfig.editorconfig
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.AssemblyInfoInputs.cache
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.AssemblyInfo.cs
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.csproj.CoreCompileInputs.cache
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.sourcelink.json
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpP.960CE8BF.Up2Date
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.dll
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\obj\Debug\net8.0\refint\SkillUpPlatform.Application.dll
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.pdb
-D:\PWD ITI\Finally Graduation Project\UpdatedBackend\src\SkillUpPlatform.Application\obj\Debug\net8.0\ref\SkillUpPlatform.Application.dll
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.deps.json
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.dll
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Application.pdb
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Domain.dll
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\bin\Debug\net8.0\SkillUpPlatform.Domain.pdb
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.csproj.AssemblyReference.cache
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.AssemblyInfoInputs.cache
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.AssemblyInfo.cs
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.csproj.CoreCompileInputs.cache
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.sourcelink.json
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpP.960CE8BF.Up2Date
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.dll
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\obj\Debug\net8.0\refint\SkillUpPlatform.Application.dll
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\obj\Debug\net8.0\SkillUpPlatform.Application.pdb
+D:\ITI-9-months ProWep\FinalProject\skillup-platform\src\SkillUpPlatform.Application\obj\Debug\net8.0\ref\SkillUpPlatform.Application.dll

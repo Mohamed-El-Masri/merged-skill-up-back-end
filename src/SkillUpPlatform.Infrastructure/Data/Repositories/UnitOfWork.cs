@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore.Storage;
+using SkillUpPlatform.Domain.Entities;
 using SkillUpPlatform.Domain.Interfaces;
 using SkillUpPlatform.Infrastructure.Data;
 
@@ -19,7 +20,17 @@ public class UnitOfWork : IUnitOfWork
                         IQuestionRepository questions,
                         IUserAnswerRepository userAnswers,
                         IUserLearningPathRepository userLearningPaths,
-                        ISystemSettingsRepository systemSettings)
+                        IFileUploadRepository fileUploadRepository,
+                        INotificationRepository notificationRepository,
+                        IAchievementRepository achievementRepository,
+                        IUserGoalRepository userGoalRepository,
+                        IAuditLogRepository auditLogRepository,
+                        IUserActivityRepository userActivityRepository,
+                        ISystemHealthRepository systemHealthRepository,
+                        IEmailVerificationTokenRepository emailVerificationTokens,
+                        IPasswordResetTokenRepository passwordResetTokens,
+                        IUserSessionRepository userSessions,
+                        IFileShareRepository fileShareRepository)
     {
         _context = context;
         Users = users;
@@ -32,7 +43,17 @@ public class UnitOfWork : IUnitOfWork
         Questions = questions;
         UserAnswers = userAnswers;
         UserLearningPaths = userLearningPaths;
-        SystemSettings = systemSettings;
+        FileUploadRepository = fileUploadRepository;
+        NotificationRepository = notificationRepository;
+        AchievementRepository = achievementRepository;
+        UserGoalRepository = userGoalRepository;
+        AuditLogRepository = auditLogRepository;
+        UserActivityRepository = userActivityRepository;
+        SystemHealthRepository = systemHealthRepository;
+        EmailVerificationTokens = emailVerificationTokens;
+        PasswordResetTokens = passwordResetTokens;
+        UserSessions = userSessions;
+        FileShareRepository = fileShareRepository;
     }
 
     public IUserRepository Users { get; }
@@ -45,7 +66,17 @@ public class UnitOfWork : IUnitOfWork
     public IQuestionRepository Questions { get; }
     public IUserAnswerRepository UserAnswers { get; }
     public IUserLearningPathRepository UserLearningPaths { get; }
-    public ISystemSettingsRepository SystemSettings { get; }
+    public IFileUploadRepository FileUploadRepository { get; }
+    public INotificationRepository NotificationRepository { get; }
+    public IAchievementRepository AchievementRepository { get; }
+    public IUserGoalRepository UserGoalRepository { get; }
+    public IAuditLogRepository AuditLogRepository { get; }
+    public IUserActivityRepository UserActivityRepository { get; }
+    public ISystemHealthRepository SystemHealthRepository { get; }
+    public IEmailVerificationTokenRepository EmailVerificationTokens { get; }
+    public IPasswordResetTokenRepository PasswordResetTokens { get; }
+    public IUserSessionRepository UserSessions {  get; }
+    public IFileShareRepository FileShareRepository { get; }
 
     public async Task<int> SaveChangesAsync()
     {

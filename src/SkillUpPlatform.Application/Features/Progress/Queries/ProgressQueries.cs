@@ -69,6 +69,10 @@ public class LearningStreakDto
     public int CurrentStreak { get; set; }
     public int LongestStreak { get; set; }
     public DateTime? LastLearningDate { get; set; }
+    public DateTime StartDate { get; set; }
+    public DateTime EndDate { get; set; }
+    public int Days { get; set; }
+    public bool IsActive { get; set; }
     public List<DateTime> LearningDates { get; set; } = new();
 }
 

@@ -76,24 +76,6 @@ public class UserProgressRepository : GenericRepository<UserProgress>, IUserProg
 
         return (double)completedContent / totalContent * 100;
     }
-
-    public async Task<int> CountAllAsync()
-    {
-        return await _context.UserProgresses.CountAsync();
-    }
-
-    public async Task<int> CountCompletedAsync()
-    {
-        return await _context.UserProgresses.CountAsync(p => p.IsCompleted);
-    }
-
-    public async Task<double?> GetAverageEngagementTimeAsync()
-    {
-        return await _context.UserProgresses
-            .Where(p => p.TimeSpentMinutes > 0)
-            .AverageAsync(p => (double?)p.TimeSpentMinutes);
-    }
-
 }
 
 public class AssessmentResultRepository : GenericRepository<AssessmentResult>, IAssessmentResultRepository
@@ -134,6 +116,15 @@ public class AssessmentResultRepository : GenericRepository<AssessmentResult>, I
             .Where(ar => ar.UserId == userId)
             .OrderByDescending(ar => ar.CompletedAt)
             .ToListAsync();    }
+
+    public async Task<IEnumerable<AssessmentResult>> GetByUserIdAndAssessmentIdAsync(int userId, int assessmentId)
+    {
+        return await _dbSet
+            .Include(ar => ar.Assessment)
+            .Where(ar => ar.UserId == userId && ar.AssessmentId == assessmentId)
+            .OrderByDescending(ar => ar.CompletedAt)
+            .ToListAsync();
+    }
 }
 
 public class QuestionRepository : GenericRepository<Question>, IQuestionRepository
