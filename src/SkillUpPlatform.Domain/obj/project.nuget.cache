@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F8bB9BFldbA=",
+  "dgSpecHash": "gEmEfgQ4U8U=",
   "success": true,
-  "projectFilePath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
+  "projectFilePath": "D:\\Skillup\\Back-End\\Abdo\\src\\SkillUpPlatform.Domain\\SkillUpPlatform.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

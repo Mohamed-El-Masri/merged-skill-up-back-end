@@ -8723,23 +8723,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rama2\\.nuget\\packages\\": {},
+    "C:\\Users\\HP\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj",
+      "projectUniqueName": "D:\\Skillup\\Back-End\\Abdo\\src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj",
       "projectName": "SkillUpPlatform.API",
-      "projectPath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj",
-      "packagesPath": "C:\\Users\\Rama2\\.nuget\\packages\\",
-      "outputPath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.API\\obj\\",
+      "projectPath": "D:\\Skillup\\Back-End\\Abdo\\src\\SkillUpPlatform.API\\SkillUpPlatform.API.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "D:\\Skillup\\Back-End\\Abdo\\src\\SkillUpPlatform.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Rama2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8754,11 +8754,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj": {
-              "projectPath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj"
+            "D:\\Skillup\\Back-End\\Abdo\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj": {
+              "projectPath": "D:\\Skillup\\Back-End\\Abdo\\src\\SkillUpPlatform.Application\\SkillUpPlatform.Application.csproj"
             },
-            "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj": {
-              "projectPath": "D:\\ITI-9-months ProWep\\FinalProject\\skillup-platform\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj"
+            "D:\\Skillup\\Back-End\\Abdo\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj": {
+              "projectPath": "D:\\Skillup\\Back-End\\Abdo\\src\\SkillUpPlatform.Infrastructure\\SkillUpPlatform.Infrastructure.csproj"
             }
           }
         }
