@@ -1,0 +1,60 @@
+E:\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Infrastructure.deps.json
+E:\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Infrastructure.runtimeconfig.json
+E:\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Infrastructure.dll
+E:\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Infrastructure.pdb
+E:\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Application.dll
+E:\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Domain.dll
+E:\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Application.pdb
+E:\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Domain.pdb
+E:\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.csproj.AssemblyReference.cache
+E:\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.AssemblyInfoInputs.cache
+E:\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.AssemblyInfo.cs
+E:\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.sourcelink.json
+E:\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpP.83154015.Up2Date
+E:\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.dll
+E:\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\refint\SkillUpPlatform.Infrastructure.dll
+E:\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.pdb
+E:\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.genruntimeconfig.cache
+E:\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\ref\SkillUpPlatform.Infrastructure.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Infrastructure.deps.json
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Infrastructure.runtimeconfig.json
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Infrastructure.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Infrastructure.pdb
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Application.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Domain.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Application.pdb
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Domain.pdb
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.csproj.AssemblyReference.cache
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.AssemblyInfoInputs.cache
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.AssemblyInfo.cs
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.sourcelink.json
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpP.83154015.Up2Date
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\refint\SkillUpPlatform.Infrastructure.dll
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.pdb
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.genruntimeconfig.cache
+E:\Gallery\skillup-hager\Backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\ref\SkillUpPlatform.Infrastructure.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\refint\SkillUpPlatform.Infrastructure.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.pdb
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.csproj.AssemblyReference.cache
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.AssemblyInfoInputs.cache
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.AssemblyInfo.cs
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.csproj.CoreCompileInputs.cache
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.sourcelink.json
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Infrastructure.deps.json
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Infrastructure.runtimeconfig.json
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Infrastructure.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Infrastructure.pdb
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Application.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Domain.dll
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Application.pdb
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\bin\Release\net8.0\SkillUpPlatform.Domain.pdb
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpP.83154015.Up2Date
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\SkillUpPlatform.Infrastructure.genruntimeconfig.cache
+e:\Gallery\Skillup Project\skillup-backend\src\SkillUpPlatform.Infrastructure\obj\Release\net8.0\ref\SkillUpPlatform.Infrastructure.dll
